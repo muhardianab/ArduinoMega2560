@@ -1,0 +1,15 @@
+Plugin v0.0.1 running on KiCad 7.0.10 and Python 3.9.16 (main, Oct 13 2023, 05:50:11) [MSC v.1936 64 bit (AMD64)] on win32.
+Config file D:\Self\Self project\ArduinoMega2560\ArduinoMega2560\ArduinoMega2560.kicad_pcb.hierpcb.json not found. Creating new one.
+Footprint REF** is not on a sheet, skipping...
+Imported D:\Self\Self project\ArduinoMega2560\ArduinoMega2560\ArduinoMega2560.kicad_pcb, with 8 footprints, 0 tracks, and 0 drawings.
+ (+ PCB D:\Self\Self project\ArduinoMega2560\ArduinoMega2560\ArduinoMega2560.kicad_pcb)
+├─ power
+Missing path: REF** (D:\Self\Self project\ArduinoMega2560\ArduinoMega2560\ArduinoMega2560.kicad_pcb)
+PCB D:\Self\Self project\ArduinoMega2560\ArduinoMega2560\ArduinoMega2560.kicad_pcb
+  /7c89fbb2/b172804a: U3
+  /7c89fbb2/76865155: C1
+  /84e1da04: U1
+  /7c89fbb2/852abb1f: J1
+  /7c89fbb2/6874fc51: D1
+  /7c89fbb2/f65277b7: U2
+  /7c89fbb2/b668212c: C2
