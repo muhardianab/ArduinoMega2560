@@ -1800,7 +1800,7 @@
   (symbol (lib_id "PCM_Amplifier_Operational_AKL:LM358D") (at 101.6 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3783c71f-b6c4-43e7-820f-38ec47aad08c)
-    (property "Reference" "IC5" (at 113.03 99.9491 0)
+    (property "Reference" "U3" (at 113.03 99.9491 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM358D" (at 113.03 102.4891 0)
@@ -1823,7 +1823,7 @@
     (instances
       (project "ArduinoMega2560"
         (path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
-          (reference "IC5") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -1857,7 +1857,7 @@
   (symbol (lib_id "PCM_Amplifier_Operational_AKL:LM358D") (at 57.15 127 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40164dc4-e2a0-4416-95e1-6c88f0b9cffd)
-    (property "Reference" "IC5" (at 58.42 116.84 0)
+    (property "Reference" "U3" (at 58.42 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM358D" (at 58.42 119.38 0)
@@ -1880,7 +1880,7 @@
     (instances
       (project "ArduinoMega2560"
         (path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
-          (reference "IC5") (unit 2)
+          (reference "U3") (unit 2)
         )
       )
     )
@@ -2264,7 +2264,7 @@
   (symbol (lib_id "TI_LP2986AILD-3.3-NOPB:LP2986AILD-3.3_NOPB") (at 97.79 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af6d0d52-c427-498a-8c57-e48ba0939267)
-    (property "Reference" "U3" (at 120.65 134.62 0)
+    (property "Reference" "UP3" (at 120.65 134.62 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "LP2986AILD-3.3/NOPB" (at 120.65 137.16 0)
@@ -2288,7 +2288,7 @@
     (instances
       (project "ArduinoMega2560"
         (path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
-          (reference "U3") (unit 1)
+          (reference "UP3") (unit 1)
         )
       )
     )
@@ -2464,8 +2464,8 @@
     (property "Reference" "#PWR09" (at 152.4 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND1" (at 152.4 166.37 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "GND1" (at 154.94 162.56 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 152.4 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2540,7 +2540,7 @@
   (symbol (lib_id "PCM_Resistor_AKL:R_0603") (at 26.67 128.27 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0cbd974-84e0-4272-9d24-5f72168cbe2f)
-    (property "Reference" "RN5C1" (at 29.21 127 0)
+    (property "Reference" "RN5C" (at 29.21 127 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10K_0603" (at 29.21 129.54 0)
@@ -2560,7 +2560,7 @@
     (instances
       (project "ArduinoMega2560"
         (path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
-          (reference "RN5C1") (unit 1)
+          (reference "RN5C") (unit 1)
         )
       )
     )
