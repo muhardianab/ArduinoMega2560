@@ -4519,7 +4519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c4979a5-eb2c-4b87-8ded-c770073fceb6")
-		(property "Reference" "LED_ON1"
+		(property "Reference" "ON1"
 			(at 147.0025 95.25 0)
 			(effects
 				(font
@@ -4570,7 +4570,7 @@
 		(instances
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
-					(reference "LED_ON1")
+					(reference "ON1")
 					(unit 1)
 				)
 			)
@@ -4883,7 +4883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "622c3a0b-96ff-4ab2-a228-2bc0adf9024d")
-		(property "Reference" "RN3C1"
+		(property "Reference" "RN33"
 			(at 158.75 96.52 90)
 			(effects
 				(font
@@ -4943,7 +4943,7 @@
 		(instances
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
-					(reference "RN3C1")
+					(reference "RN33")
 					(unit 1)
 				)
 			)
@@ -5023,7 +5023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64f6e8c0-df93-4bda-95cc-03d2af1002c2")
-		(property "Reference" "RN5B1"
+		(property "Reference" "RN52"
 			(at 29.21 144.78 0)
 			(effects
 				(font
@@ -5085,7 +5085,7 @@
 		(instances
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
-					(reference "RN5B1")
+					(reference "RN52")
 					(unit 1)
 				)
 			)
@@ -6444,7 +6444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb4c1a01-899f-47a1-8762-3e51369fc91f")
-		(property "Reference" "RN3D1"
+		(property "Reference" "RN34"
 			(at 158.75 109.22 90)
 			(effects
 				(font
@@ -6504,7 +6504,7 @@
 		(instances
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
-					(reference "RN3D1")
+					(reference "RN34")
 					(unit 1)
 				)
 			)
@@ -6584,7 +6584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0cbd974-84e0-4272-9d24-5f72168cbe2f")
-		(property "Reference" "RN5C1"
+		(property "Reference" "RN53"
 			(at 29.21 127 0)
 			(effects
 				(font
@@ -6646,7 +6646,7 @@
 		(instances
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
-					(reference "RN5C1")
+					(reference "RN53")
 					(unit 1)
 				)
 			)
@@ -6922,7 +6922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8bd5d56-3ccf-43e8-bc90-bed9b99ad5a0")
-		(property "Reference" "LED_L1"
+		(property "Reference" "LED_PB7"
 			(at 147.0025 107.95 0)
 			(effects
 				(font
@@ -6973,7 +6973,7 @@
 		(instances
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
-					(reference "LED_L1")
+					(reference "LED_PB7")
 					(unit 1)
 				)
 			)
