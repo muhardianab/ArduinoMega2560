@@ -179,7 +179,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ON_Semi-MC33269DTRK-5.0G:MC33269DTRK-5.0G"
+		(symbol "LDO_MC33269DTRK-5.0G_Onsemi:MC33269DTRK-5.0G"
 			(pin_names
 				(offset 0.254)
 			)
@@ -202,28 +202,8 @@
 					)
 				)
 			)
-			(property "Footprint" "DPAK-3_ONS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "MC33269DTRK-5.0G"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Footprint" "LDO_MC33269DTRK-5.0G_Onsemi:DPAK-3_ONS"
+				(at 13.716 -11.176 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -231,12 +211,22 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Datasheet" "MC33269DTRK-5.0G_Onsemi"
+				(at 17.272 -9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 800mA DPAK"
+				(at 21.844 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "MC33269DTRK-5.0G"
@@ -3156,6 +3146,12 @@
 		(uuid "c399cf87-75d0-4449-9dbe-7e940895c267")
 	)
 	(junction
+		(at 50.8 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb609a26-acc5-4b91-a631-4074aa099ea7")
+	)
+	(junction
 		(at 53.34 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3255,6 +3251,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 173.99) (xy 60.96 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cb195c-78d7-4ff7-8ef1-002b36b52da0")
+	)
+	(wire
+		(pts
 			(xy 85.09 36.83) (xy 88.9 36.83)
 		)
 		(stroke
@@ -3272,6 +3278,16 @@
 			(type default)
 		)
 		(uuid "144874b3-eae4-42ac-8a37-8208fdb386b6")
+	)
+	(wire
+		(pts
+			(xy 60.96 173.99) (xy 60.96 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155e551a-b2ec-4256-82e2-77f23c53b3cd")
 	)
 	(wire
 		(pts
@@ -3465,6 +3481,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 173.99) (xy 50.8 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4581cebe-88d1-4e80-9ec8-0750f5a2e711")
+	)
+	(wire
+		(pts
 			(xy 26.67 118.11) (xy 26.67 124.46)
 		)
 		(stroke
@@ -3535,6 +3561,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 173.99) (xy 50.8 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c734dea-0057-433e-93d8-3a9bb77b4e7b")
+	)
+	(wire
+		(pts
 			(xy 44.45 143.51) (xy 44.45 137.16)
 		)
 		(stroke
@@ -3572,6 +3608,16 @@
 			(type default)
 		)
 		(uuid "6c71069e-20a6-4e26-b27a-35dbb6bf3d47")
+	)
+	(wire
+		(pts
+			(xy 40.64 177.8) (xy 40.64 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726cdfd0-52ea-4ebf-bd79-857d0d5d6b15")
 	)
 	(wire
 		(pts
@@ -4065,16 +4111,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 118.11) (xy 26.67 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2ee4e2b-5513-4778-80ec-e145c7b1ad31")
-	)
-	(wire
-		(pts
 			(xy 26.67 149.86) (xy 26.67 153.67)
 		)
 		(stroke
@@ -4229,17 +4265,6 @@
 		)
 		(uuid "85ecb329-beb8-419c-a269-80edd258aa45")
 	)
-	(hierarchical_label "VIN"
-		(shape input)
-		(at 22.86 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a10540fd-d7ff-4d0d-b6ff-15bbbbf87632")
-	)
 	(hierarchical_label "PB7"
 		(shape input)
 		(at 170.18 114.3 0)
@@ -4335,7 +4360,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0775c242-a2cd-4a9a-bf3a-eadb107ebc85")
 		(property "Reference" "#PWR016"
 			(at 53.34 33.02 0)
@@ -4346,12 +4370,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 53.34 24.13 0)
+		(property "Value" "VIN"
+			(at 51.816 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4571,6 +4596,71 @@
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
 					(reference "ON1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 40.64 177.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2787d651-2bc9-4143-a378-7cd299859b15")
+		(property "Reference" "#PWR047"
+			(at 40.64 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 40.767 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f478669-9709-45d9-9762-d9d5f9c5c7ca")
+		)
+		(instances
+			(project "ArduinoMega2560"
+				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5159,6 +5249,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 60.96 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bb1b5b9-ac61-4167-9ad2-336a47374b5d")
+		(property "Reference" "#PWR046"
+			(at 60.96 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_3.3"
+			(at 60.96 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec71a94b-4e17-4118-ab9d-d973afeb618c")
+		)
+		(instances
+			(project "ArduinoMega2560"
+				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Capacitors:47uF_10V")
 		(at 53.34 64.77 270)
 		(unit 1)
@@ -5230,6 +5385,71 @@
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
 					(reference "Cp1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 26.67 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7abcf6ed-79d6-4c1b-9334-713c349ea6f0")
+		(property "Reference" "#PWR044"
+			(at 26.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIN"
+			(at 25.146 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4cef112-e5b7-4512-9043-a351af1c20e1")
+		)
+		(instances
+			(project "ArduinoMega2560"
+				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5401,89 +5621,65 @@
 		)
 	)
 	(symbol
-		(lib_id "ON_Semi-MC33269DTRK-5.0G:MC33269DTRK-5.0G")
-		(at 76.2 72.39 0)
+		(lib_id "power:GND")
+		(at 50.8 177.8 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8ded72ba-bd90-464e-a1a4-c00b8f9fa398")
-		(property "Reference" "UP2"
-			(at 99.06 62.23 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "MC33269DTRK-5.0G"
-			(at 99.06 64.77 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "DPAK-3_ONS"
-			(at 76.2 72.39 0)
+		(uuid "8bf06034-5139-4584-93a8-441c5abc6e40")
+		(property "Reference" "#PWR045"
+			(at 50.8 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "MC33269DTRK-5.0G"
-			(at 76.2 72.39 0)
+		(property "Value" "GND"
+			(at 50.8 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 76.2 72.39 0)
+			(at 50.8 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Field4" ""
-			(at 76.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 76.2 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "50d12f61-57ca-4814-8fe4-c60f503d6e6a")
-		)
-		(pin "2"
-			(uuid "bb0e652d-6621-4970-9bbe-10d4da0d6a37")
 		)
 		(pin "1"
-			(uuid "bea45484-4b5a-437e-8edc-5d918086e8f5")
+			(uuid "d9f85435-7452-4f31-990a-afe07927faff")
 		)
 		(instances
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
-					(reference "UP2")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6388,13 +6584,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 154.94 162.56 0)
+		(property "Value" "GND_3.3"
+			(at 152.4 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6789,6 +6984,77 @@
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LDO_MC33269DTRK-5.0G_Onsemi:MC33269DTRK-5.0G")
+		(at 76.2 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbf72590-6937-4753-abc8-294eb57c490c")
+		(property "Reference" "U4"
+			(at 99.06 62.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MC33269DTRK-5.0G"
+			(at 99.06 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "LDO_MC33269DTRK-5.0G_Onsemi:DPAK-3_ONS"
+			(at 89.916 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MC33269DTRK-5.0G_Onsemi"
+			(at 93.472 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 800mA DPAK"
+			(at 98.044 85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5795529-7684-4289-bf23-ff21296c327d")
+		)
+		(pin "2"
+			(uuid "91e126a3-38c4-401d-89a2-888377902b59")
+		)
+		(pin "3"
+			(uuid "727fbc80-3ac1-4e62-b17b-eae193076a7e")
+		)
+		(instances
+			(project ""
+				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
+					(reference "U4")
 					(unit 1)
 				)
 			)
