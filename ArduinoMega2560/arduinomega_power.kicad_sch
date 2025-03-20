@@ -6999,7 +6999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbf72590-6937-4753-abc8-294eb57c490c")
-		(property "Reference" "U4"
+		(property "Reference" "UP2"
 			(at 99.06 62.23 0)
 			(effects
 				(font
@@ -7015,7 +7015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LDO_MC33269DTRK-5.0G_Onsemi:DPAK-3_ONS"
+		(property "Footprint" "LDO_MC33269DTRK_5_0G_Onsemi:DPAK-3_ONS"
 			(at 89.916 83.566 0)
 			(effects
 				(font
@@ -7054,7 +7054,7 @@
 		(instances
 			(project ""
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/7c89fbb2-6a37-4d58-a5e8-241333b4d617"
-					(reference "U4")
+					(reference "UP2")
 					(unit 1)
 				)
 			)

@@ -5417,7 +5417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36d2d1ee-5719-45fd-94c5-c608cf94309e")
-		(property "Reference" "J2"
+		(property "Reference" "USB1"
 			(at 43.18 87.63 0)
 			(effects
 				(font
@@ -5482,7 +5482,7 @@
 		(instances
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14/42cc45d5-0d5b-4ebd-8f6c-e45958af00ea"
-					(reference "J2")
+					(reference "USB1")
 					(unit 1)
 				)
 			)
