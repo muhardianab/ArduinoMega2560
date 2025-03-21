@@ -4123,6 +4123,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 143.51) (xy 173.99 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45325ee4-f11e-4bd2-9f61-4a76fa0de41d")
+	)
+	(wire
+		(pts
 			(xy 69.85 78.74) (xy 69.85 80.01)
 		)
 		(stroke
@@ -4150,16 +4160,6 @@
 			(type default)
 		)
 		(uuid "4bd78039-bd77-4ad2-a83c-b1768cdf4644")
-	)
-	(wire
-		(pts
-			(xy 181.61 143.51) (xy 190.5 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c13666d-ab75-4008-952b-0991e1713791")
 	)
 	(wire
 		(pts
@@ -4443,6 +4443,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 143.51) (xy 190.5 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3acf89-ba76-4b01-be45-dff0445cad31")
+	)
+	(wire
+		(pts
 			(xy 77.47 33.02) (xy 81.28 33.02)
 		)
 		(stroke
@@ -4590,16 +4600,6 @@
 			(type default)
 		)
 		(uuid "9f554557-10b7-4767-b55b-cc818ac67c7d")
-	)
-	(wire
-		(pts
-			(xy 165.1 143.51) (xy 173.99 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0a9ceec-1f73-465e-bb92-7d4f69dfb259")
 	)
 	(wire
 		(pts
@@ -7329,7 +7329,7 @@
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 177.8 143.51 0)
-		(mirror x)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7337,7 +7337,7 @@
 		(dnp no)
 		(uuid "e6ff7bc0-3ced-4982-97a9-a1af078de2e2")
 		(property "Reference" "RESET_EN1"
-			(at 177.8 149.86 0)
+			(at 177.546 147.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7345,7 +7345,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 177.8 147.32 0)
+			(at 177.546 149.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
