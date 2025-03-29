@@ -4666,6 +4666,12 @@
 		)
 	)
 	(junction
+		(at 62.23 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a5274e7-03da-410d-9e67-3f43183905b9")
+	)
+	(junction
 		(at 300.99 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4676,6 +4682,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "198a7ed3-cc5c-4fd1-b19f-32c186532a82")
+	)
+	(junction
+		(at 114.3 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a228dc2-6e79-4c88-93f3-9586e00bef5d")
 	)
 	(junction
 		(at 234.95 30.48)
@@ -4732,16 +4744,16 @@
 		(uuid "6c87c836-4204-4c22-8448-b3ccb9a5ffd9")
 	)
 	(junction
+		(at 127 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7221f1a4-88fb-40a4-a53d-20776b5029a4")
+	)
+	(junction
 		(at 114.3 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "735d861e-b7f0-49aa-9bc3-c179851c2724")
-	)
-	(junction
-		(at 101.6 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75c6aeb8-073f-4b5e-b99a-61f16e0c03c1")
 	)
 	(junction
 		(at 345.44 127)
@@ -4756,10 +4768,10 @@
 		(uuid "86617a2c-6133-4546-bccf-1315cd3f5b7a")
 	)
 	(junction
-		(at 88.9 190.5)
+		(at 148.59 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8758c60c-bc93-4f9c-96db-fa3bcffdd938")
+		(uuid "a86e7fc6-08b9-4196-8ce0-83944a8aef85")
 	)
 	(junction
 		(at 161.29 64.77)
@@ -4786,16 +4798,16 @@
 		(uuid "d53a910b-868e-45ee-9146-168d52c4921e")
 	)
 	(junction
+		(at 120.65 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d67ac25e-7dcf-4c84-9487-9345b5d6c341")
+	)
+	(junction
 		(at 161.29 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1f35776-f252-499f-a767-6fa3e4f1f32c")
-	)
-	(junction
-		(at 95.25 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7c1dab7-a5ef-4cbb-869d-33a12fdef7a7")
 	)
 	(bus_entry
 		(at 334.01 66.04)
@@ -5415,16 +5427,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 175.26) (xy 101.6 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0456b5c1-6a15-4420-b2f8-b68921b03398")
-	)
-	(wire
-		(pts
 			(xy 251.46 161.29) (xy 251.46 158.75)
 		)
 		(stroke
@@ -5555,16 +5557,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 190.5) (xy 88.9 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12d8350a-b329-4042-80d3-3767f9a961a2")
-	)
-	(wire
-		(pts
 			(xy 133.35 134.62) (xy 144.78 134.62)
 		)
 		(stroke
@@ -5615,6 +5607,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 63.5) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15627a02-d2fd-4060-a68e-ebb326c45952")
+	)
+	(wire
+		(pts
 			(xy 193.04 168.91) (xy 199.39 168.91)
 		)
 		(stroke
@@ -5642,6 +5644,16 @@
 			(type default)
 		)
 		(uuid "179c40ce-984c-4bc5-812e-0441cffba0ab")
+	)
+	(wire
+		(pts
+			(xy 120.65 63.5) (xy 120.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e94326-961a-49c3-b256-a792a983bb9d")
 	)
 	(wire
 		(pts
@@ -5903,16 +5915,6 @@
 		)
 		(uuid "29f20151-595a-42cf-8e20-3afd3a6ce3c7")
 	)
-	(wire
-		(pts
-			(xy 95.25 190.5) (xy 95.25 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a6c3b4f-d6a5-4fb1-87d9-e5cf2c3beaeb")
-	)
 	(bus
 		(pts
 			(xy 334.01 109.22) (xy 334.01 111.76)
@@ -5952,6 +5954,16 @@
 			(type default)
 		)
 		(uuid "2c945f20-5540-40be-a510-617be741f8a5")
+	)
+	(wire
+		(pts
+			(xy 68.58 182.88) (xy 62.23 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da0a9c4-ef66-4798-894c-ed71534696fc")
 	)
 	(wire
 		(pts
@@ -6015,16 +6027,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 186.69) (xy 101.6 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31a2993e-ede1-47df-b805-051d520c0c8c")
-	)
-	(wire
-		(pts
 			(xy 260.35 33.02) (xy 260.35 30.48)
 		)
 		(stroke
@@ -6065,7 +6067,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 64.77) (xy 140.97 68.58)
+			(xy 140.97 64.77) (xy 140.97 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6163,6 +6165,16 @@
 		)
 		(uuid "3e18727d-c412-4d15-ae55-84f68631381a")
 	)
+	(wire
+		(pts
+			(xy 133.35 78.74) (xy 161.29 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eaf1a10-4d55-4e74-83d2-28df11994595")
+	)
 	(bus
 		(pts
 			(xy 334.01 91.44) (xy 334.01 99.06)
@@ -6245,6 +6257,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 48.26) (xy 127 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46098dc1-50d3-435b-bae3-728c3dbb9f18")
+	)
+	(wire
+		(pts
 			(xy 266.7 173.99) (xy 240.03 173.99)
 		)
 		(stroke
@@ -6305,6 +6327,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 78.74) (xy 161.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48aa522f-dcb5-4ed3-ba09-cd59e412bca5")
+	)
+	(wire
+		(pts
 			(xy 222.25 25.4) (xy 222.25 30.48)
 		)
 		(stroke
@@ -6332,16 +6364,6 @@
 			(type default)
 		)
 		(uuid "4ae94426-aad5-46a6-9b22-b779ec85da0f")
-	)
-	(wire
-		(pts
-			(xy 88.9 186.69) (xy 88.9 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b0cc2c7-1fc6-4420-a431-9c183a4b6d1f")
 	)
 	(wire
 		(pts
@@ -6435,6 +6457,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 182.88) (xy 62.23 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f5fa06-5e5e-45e8-9824-57009b220a02")
+	)
+	(wire
+		(pts
 			(xy 332.74 127) (xy 313.69 127)
 		)
 		(stroke
@@ -6462,16 +6494,6 @@
 			(type default)
 		)
 		(uuid "58e339f1-2255-4a55-a8f3-ac7e4e8e0825")
-	)
-	(wire
-		(pts
-			(xy 114.3 190.5) (xy 101.6 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b0b12b5-5c4d-4de1-806c-dd63755dd841")
 	)
 	(bus
 		(pts
@@ -6655,6 +6677,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 59.69) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ca66b5-9078-49be-a879-c2baea8829ff")
+	)
+	(wire
+		(pts
 			(xy 266.7 148.59) (xy 240.03 148.59)
 		)
 		(stroke
@@ -6725,6 +6757,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 182.88) (xy 62.23 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff03d27-b475-475b-97f8-2ac27f09625e")
+	)
+	(wire
+		(pts
 			(xy 195.58 125.73) (xy 199.39 125.73)
 		)
 		(stroke
@@ -6765,16 +6807,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 186.69) (xy 114.3 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7339479e-eb6a-40a2-8ae9-2b33459245da")
-	)
-	(wire
-		(pts
 			(xy 160.02 182.88) (xy 160.02 180.34)
 		)
 		(stroke
@@ -6792,6 +6824,16 @@
 			(type default)
 		)
 		(uuid "7393e2b4-0f8f-47c7-932b-821592a9973b")
+	)
+	(wire
+		(pts
+			(xy 148.59 46.99) (xy 148.59 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f7f9d3-a8ca-4437-810a-07c92f3078a6")
 	)
 	(wire
 		(pts
@@ -6933,6 +6975,16 @@
 		)
 		(uuid "830f02aa-fc15-4ec0-a2e0-2501335b7451")
 	)
+	(wire
+		(pts
+			(xy 114.3 38.1) (xy 114.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83377101-7acc-405f-992b-25beae45aeac")
+	)
 	(bus
 		(pts
 			(xy 190.5 168.91) (xy 190.5 166.37)
@@ -7005,16 +7057,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 186.69) (xy 76.2 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89e87574-5315-4860-b2b7-412646cf6117")
-	)
-	(wire
-		(pts
 			(xy 317.5 139.7) (xy 313.69 139.7)
 		)
 		(stroke
@@ -7042,16 +7084,6 @@
 			(type default)
 		)
 		(uuid "8ae9d21f-66da-415e-a3c7-186ce0d821fd")
-	)
-	(wire
-		(pts
-			(xy 77.47 175.26) (xy 76.2 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b8f31f7-812b-40e1-ae04-b1caa0bef499")
 	)
 	(wire
 		(pts
@@ -7122,16 +7154,6 @@
 			(type default)
 		)
 		(uuid "90680d74-b5c5-452c-85cc-d5be9f95957e")
-	)
-	(wire
-		(pts
-			(xy 76.2 175.26) (xy 76.2 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "906b0297-d372-426e-99f7-f90d3df9810e")
 	)
 	(wire
 		(pts
@@ -7255,16 +7277,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 190.5) (xy 95.25 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9df448cf-20a2-472c-a697-105058483979")
-	)
-	(wire
-		(pts
 			(xy 243.84 161.29) (xy 251.46 161.29)
 		)
 		(stroke
@@ -7315,13 +7327,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 175.26) (xy 114.3 175.26)
+			(xy 125.73 48.26) (xy 127 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a179875d-4ed7-434b-985b-52a00621e227")
+		(uuid "a1385f73-f62d-4aab-8d50-894c3ddb1be1")
 	)
 	(bus
 		(pts
@@ -7382,6 +7394,26 @@
 			(type default)
 		)
 		(uuid "a635961f-ef63-4f0c-bd98-e7f3b0778e71")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 114.3 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64f972a-beda-4549-95cd-30eae17522f2")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 115.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7bc3567-a008-4843-bc57-94958fec00a1")
 	)
 	(wire
 		(pts
@@ -7482,16 +7514,6 @@
 			(type default)
 		)
 		(uuid "aefe3a7f-186a-4657-919a-d460fb040d5c")
-	)
-	(wire
-		(pts
-			(xy 88.9 190.5) (xy 95.25 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b07c4a6e-d8a6-4894-bcdd-908de7ee31cf")
 	)
 	(wire
 		(pts
@@ -7675,6 +7697,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 48.26) (xy 133.35 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3821ea-088c-4d7c-8cb9-cbe00c4441fd")
+	)
+	(wire
+		(pts
 			(xy 317.5 142.24) (xy 316.23 142.24)
 		)
 		(stroke
@@ -7682,16 +7714,6 @@
 			(type default)
 		)
 		(uuid "be8904fd-a1c3-45fb-8add-b2137d33a446")
-	)
-	(wire
-		(pts
-			(xy 88.9 175.26) (xy 88.9 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be9df8c5-509b-4874-bb4a-46d6c90e8dbb")
 	)
 	(wire
 		(pts
@@ -7823,16 +7845,6 @@
 		)
 		(uuid "c9789496-3710-4116-89cb-f82368af1e32")
 	)
-	(wire
-		(pts
-			(xy 87.63 175.26) (xy 88.9 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca10fc35-67ae-4386-8cf1-7d2dda099371")
-	)
 	(bus
 		(pts
 			(xy 300.99 111.76) (xy 300.99 114.3)
@@ -7862,6 +7874,16 @@
 			(type default)
 		)
 		(uuid "ccc8c5ed-49fc-47c4-b2ab-b32a0cabd7fa")
+	)
+	(wire
+		(pts
+			(xy 148.59 38.1) (xy 114.3 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd26aff7-d60c-4fde-ad2f-9d6276a3e241")
 	)
 	(wire
 		(pts
@@ -7902,16 +7924,6 @@
 			(type default)
 		)
 		(uuid "d1529a40-86e7-465c-8ab3-9ab10985315f")
-	)
-	(wire
-		(pts
-			(xy 101.6 175.26) (xy 101.6 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2041b9e-e777-4d99-856c-e82269178aa3")
 	)
 	(wire
 		(pts
@@ -8023,6 +8035,16 @@
 		)
 		(uuid "d8841639-6499-4390-b694-d574296001dd")
 	)
+	(wire
+		(pts
+			(xy 133.35 48.26) (xy 133.35 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89e863f-0cae-4e14-b49a-ee5b93aa067f")
+	)
 	(bus
 		(pts
 			(xy 334.01 104.14) (xy 334.01 106.68)
@@ -8042,16 +8064,6 @@
 			(type default)
 		)
 		(uuid "d9e2bbc1-62fd-40dd-bf19-6efd10438fe4")
-	)
-	(wire
-		(pts
-			(xy 114.3 175.26) (xy 114.3 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da538bc7-8fa1-4229-9d2e-cf032d6fc147")
 	)
 	(wire
 		(pts
@@ -8092,6 +8104,16 @@
 			(type default)
 		)
 		(uuid "dfc63782-d9c5-4757-9a29-84f76fc1014a")
+	)
+	(wire
+		(pts
+			(xy 127 59.69) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03e3519-5a20-485a-abca-6d867c221246")
 	)
 	(bus
 		(pts
@@ -8152,6 +8174,16 @@
 			(type default)
 		)
 		(uuid "e5edc1d8-d190-451e-a680-8c9e8877087f")
+	)
+	(wire
+		(pts
+			(xy 120.65 63.5) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8eb4a02-e3cc-4f19-a885-b74a0f392570")
 	)
 	(wire
 		(pts
@@ -10039,6 +10071,23 @@
 		)
 		(uuid "f6f29ed0-60d5-4ec6-9bc2-01e3dd2521a1")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 87.63 195.58) (xy 87.63 154.94) (xy 31.75 154.94) (xy 31.75 195.58)
+			)
+			(stroke
+				(width 1)
+				(type dash)
+				(color 4 90 255 1)
+			)
+			(fill
+				(type color)
+				(color 255 0 2 1)
+			)
+			(uuid 1a89a623-cb82-4317-952f-a1ce219cf3d3)
+		)
+	)
 	(symbol
 		(lib_id "power:+3V3")
 		(at 127 118.11 0)
@@ -10058,7 +10107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+5V"
 			(at 127 113.03 0)
 			(effects
 				(font
@@ -10736,7 +10785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 133.35 113.03 0)
 			(effects
 				(font
@@ -11367,124 +11416,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Capacitor:100nF_0603_16V")
-		(at 101.6 184.15 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5591e0e3-eec3-435d-b390-89f77c2aeefd")
-		(property "Reference" "C15"
-			(at 99.06 182.8863 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22pF_0603_16V"
-			(at 101.6 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0603"
-			(at 104.14 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications" "22pF, Min. 16V 10%, X7R or X5R or similar"
-			(at 104.14 192.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AVX Corporation"
-			(at 104.14 193.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "0603YC104KAT2A"
-			(at 104.14 195.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "22pF"
-			(at 99.06 185.4263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C14663"
-			(at 100.33 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "88770080-ac2f-476d-b0b9-44750fd1f24b")
-		)
-		(pin "1"
-			(uuid "c823e048-3db9-4e6c-b1e9-5e289e353cfe")
-		)
-		(instances
-			(project "ArduinoMega2560"
-				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 222.25 25.4 0)
 		(unit 1)
@@ -11741,7 +11672,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Devices:Crystal_16MHz")
-		(at 82.55 175.26 0)
+		(at 120.65 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11751,7 +11682,7 @@
 		(fields_autoplaced yes)
 		(uuid "6dec1080-7023-4941-8fb7-d89112ce6d2e")
 		(property "Reference" "Q2"
-			(at 82.55 167.64 0)
+			(at 120.65 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11759,7 +11690,7 @@
 			)
 		)
 		(property "Value" "Crystal_16MHz"
-			(at 82.55 170.18 0)
+			(at 120.65 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11767,7 +11698,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
-			(at 82.55 179.07 0)
+			(at 120.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11776,7 +11707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 173.99 0)
+			(at 120.65 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11785,7 +11716,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 175.26 0)
+			(at 120.65 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12392,7 +12323,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 68.58 0)
+		(at 140.97 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12401,7 +12332,7 @@
 		(fields_autoplaced yes)
 		(uuid "94ea2de5-1b0c-4999-b1f9-cfbb336ffa1d")
 		(property "Reference" "#PWR027"
-			(at 140.97 74.93 0)
+			(at 140.97 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12410,7 +12341,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 73.66 0)
+			(at 140.97 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12418,7 +12349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 68.58 0)
+			(at 140.97 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12427,7 +12358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 68.58 0)
+			(at 140.97 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12436,7 +12367,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 68.58 0)
+			(at 140.97 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12738,124 +12669,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Capacitor:100nF_0603_16V")
-		(at 114.3 184.15 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "afbece84-15cc-4915-847c-8a597cbd0423")
-		(property "Reference" "C14"
-			(at 111.76 182.8863 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22pF_0603_16V"
-			(at 114.3 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0603"
-			(at 116.84 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications" "22pF, Min. 16V 10%, X7R or X5R or similar"
-			(at 116.84 192.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AVX Corporation"
-			(at 116.84 193.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "0603YC104KAT2A"
-			(at 116.84 195.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "22pF"
-			(at 111.76 185.4263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C14663"
-			(at 113.03 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "94ed91c4-a81d-4f5f-bdd4-a6bab9b6794b")
-		)
-		(pin "1"
-			(uuid "6542b589-32c4-40cf-9044-899be52b46d0")
-		)
-		(instances
-			(project "ArduinoMega2560"
-				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SL_Pin_Headers:PINHD_1x6_Male")
 		(at 148.59 138.43 0)
 		(unit 1)
@@ -13003,7 +12816,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 194.31 0)
+		(at 62.23 186.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13013,7 +12826,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4ecca44-88db-4453-9d37-ffd5e6f47625")
 		(property "Reference" "#PWR022"
-			(at 95.25 200.66 0)
+			(at 62.23 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13022,7 +12835,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 199.39 0)
+			(at 62.23 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13030,7 +12843,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 194.31 0)
+			(at 62.23 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13039,7 +12852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 194.31 0)
+			(at 62.23 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13048,7 +12861,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 194.31 0)
+			(at 62.23 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13272,8 +13085,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 120.65 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb96ba3c-1915-470e-bdaf-398bc1c7ff9c")
+		(property "Reference" "#PWR048"
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "061750ff-61c2-4a67-a6cb-d7caec9755c7")
+		)
+		(instances
+			(project "ArduinoMega2560"
+				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_4ms_Capacitor:100nF_0603_16V")
-		(at 88.9 184.15 0)
+		(at 127 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13281,8 +13159,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd27388e-239b-4469-90f3-291e6d1ed70d")
-		(property "Reference" "C16"
-			(at 86.36 182.8863 0)
+		(property "Reference" "C15"
+			(at 124.46 55.8863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13291,7 +13169,7 @@
 			)
 		)
 		(property "Value" "22pF_0603_16V"
-			(at 88.9 180.34 0)
+			(at 127 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13300,7 +13178,7 @@
 			)
 		)
 		(property "Footprint" "PCM_4ms_Capacitor:C_0603"
-			(at 91.44 189.23 0)
+			(at 129.54 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13310,7 +13188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 184.15 0)
+			(at 127 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13319,7 +13197,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 184.15 0)
+			(at 127 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13327,7 +13205,7 @@
 			)
 		)
 		(property "Specifications" "22pF, Min. 16V 10%, X7R or X5R or similar"
-			(at 91.44 192.024 0)
+			(at 129.54 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13337,7 +13215,7 @@
 			)
 		)
 		(property "Manufacturer" "AVX Corporation"
-			(at 91.44 193.548 0)
+			(at 129.54 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13347,7 +13225,7 @@
 			)
 		)
 		(property "Part Number" "0603YC104KAT2A"
-			(at 91.44 195.072 0)
+			(at 129.54 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13357,7 +13235,7 @@
 			)
 		)
 		(property "Display" "22pF"
-			(at 86.36 185.4263 0)
+			(at 124.46 58.4263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13366,7 +13244,7 @@
 			)
 		)
 		(property "JLCPCB ID" "C14663"
-			(at 87.63 196.85 0)
+			(at 125.73 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13383,7 +13261,7 @@
 		(instances
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -13951,7 +13829,7 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Capacitor:100nF_0603_16V")
-		(at 76.2 184.15 0)
+		(at 114.3 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13959,8 +13837,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee0dc683-4bdb-4cd6-98ea-8e20ccd0be89")
-		(property "Reference" "C17"
-			(at 73.66 182.8863 0)
+		(property "Reference" "C14"
+			(at 111.76 55.8863 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13969,7 +13847,7 @@
 			)
 		)
 		(property "Value" "22pF_0603_16V"
-			(at 76.2 180.34 0)
+			(at 114.3 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13978,7 +13856,7 @@
 			)
 		)
 		(property "Footprint" "PCM_4ms_Capacitor:C_0603"
-			(at 78.74 189.23 0)
+			(at 116.84 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13988,7 +13866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 184.15 0)
+			(at 114.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13997,7 +13875,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 184.15 0)
+			(at 114.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14005,7 +13883,7 @@
 			)
 		)
 		(property "Specifications" "22pF, Min. 16V 10%, X7R or X5R or similar"
-			(at 78.74 192.024 0)
+			(at 116.84 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14015,7 +13893,7 @@
 			)
 		)
 		(property "Manufacturer" "AVX Corporation"
-			(at 78.74 193.548 0)
+			(at 116.84 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14025,7 +13903,7 @@
 			)
 		)
 		(property "Part Number" "0603YC104KAT2A"
-			(at 78.74 195.072 0)
+			(at 116.84 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14035,7 +13913,7 @@
 			)
 		)
 		(property "Display" "22pF"
-			(at 73.66 185.4263 0)
+			(at 111.76 58.4263 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14044,7 +13922,7 @@
 			)
 		)
 		(property "JLCPCB ID" "C14663"
-			(at 74.93 196.85 0)
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14061,75 +13939,7 @@
 		(instances
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Devices:Crystal_16MHz")
-		(at 107.95 175.26 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7b41259-bfdd-4d12-8b3e-091f81fc1974")
-		(property "Reference" "Q1"
-			(at 107.95 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Crystal_16MHz"
-			(at 107.95 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_HC49-4H_Vertical"
-			(at 107.95 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bb6e3d42-f51d-4a32-a514-454c34424621")
-		)
-		(pin "1"
-			(uuid "5a61c5a3-04d5-4bf8-bc20-1a9ab5deef09")
-		)
-		(instances
-			(project "ArduinoMega2560"
-				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
-					(reference "Q1")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -14196,6 +14006,48 @@
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
 					(reference "#PWR024")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 106.68)
+		(size 30.48 31.75)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2456421b-9e49-483f-bde9-b3c486d81dac")
+		(property "Sheetname" "Excluded"
+			(at 31.75 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Excluded.kicad_sch"
+			(at 31.75 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ArduinoMega2560"
+				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
+					(page "4")
 				)
 			)
 		)
