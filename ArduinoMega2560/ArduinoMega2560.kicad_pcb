@@ -2354,7 +2354,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "11c00505-b753-47e8-b0f5-c00802e20cb9")
-		(at 116.825 153.7 90)
+		(at 116.825 154.16 90)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "ADC2"
@@ -6950,7 +6950,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "59226a61-8786-41fe-b8df-a25409002d46")
-		(at 93.94 153.5 90)
+		(at 93.94 154.16 90)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "ADC1"
@@ -8595,7 +8595,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "76f8e4ec-e343-41a5-98a3-16e75ee5b603")
-		(at 104.16 105.7 -90)
+		(at 104.86 105.84 -90)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "PWM1"
@@ -10821,13 +10821,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "8c1d9f01-ddb3-4caa-8d56-7d8bf9770efc")
-		(at 126.36 105.7 -90)
+		(at 126.56 105.84 -90)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "COM1"
 			(at 2.7 0.9 0)
 			(layer "F.SilkS")
-			(uuid "027df2a6-5031-4006-a596-c5fa65124848")
+			(uuid "2744a2f8-31c4-4e5c-9223-e83f62585d36")
 			(effects
 				(font
 					(size 1 1)
@@ -10839,7 +10839,7 @@
 			(at 0 20.11 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10f818f5-ea59-4c14-a177-324c5f619030")
+			(uuid "15204115-e6af-4e79-939b-1cc2da705866")
 			(effects
 				(font
 					(size 1 1)
@@ -10851,7 +10851,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ccde9683-919a-4d5a-ac5d-35c92dc362f3")
+			(uuid "3295111f-38da-4e1f-a617-dcbdff3af51a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10863,7 +10863,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "083e4bbb-6351-44fd-8a35-c74fc9a5b4b4")
+			(uuid "e3cf13d3-3837-4049-b5cd-c7fb3298ddc3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16363,7 +16363,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b395c06d-293f-4756-b29f-7e4a2a2873e1")
-		(at 76.45 154 90)
+		(at 76.45 154.16 90)
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "PWR1"
@@ -17393,13 +17393,13 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c354e2e7-3dca-49b1-92dd-eba9e5411fb6")
-		(at 82.18 105.6 -90)
+		(at 83.2 105.84 -90)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "PWM2"
 			(at 2.7 1.475 0)
 			(layer "F.SilkS")
-			(uuid "a323cd1f-f073-4f37-aff8-154fc46e4171")
+			(uuid "40620280-8523-4c5c-99a5-90c158de6060")
 			(effects
 				(font
 					(size 1 1)
@@ -17411,7 +17411,7 @@
 			(at 0 20.11 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "28b90985-84b6-4c3f-94ac-9fa5d6a85254")
+			(uuid "3a0e6e1c-93b6-4584-bfa4-06363684ac41")
 			(effects
 				(font
 					(size 1 1)
@@ -17423,7 +17423,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fed39b0-24c0-4af6-a300-273dd7a3fb35")
+			(uuid "19038a4e-e2cc-434e-819d-53c5a4feb706")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17435,7 +17435,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9890319-4405-4f6b-9f9e-abbe4d60140a")
+			(uuid "e24ee907-56e2-4c9e-bb71-a0b6fbd6a2b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29422,12 +29422,30 @@
 			"AAAAAAAAcGMxRCwCAABVBAAAAAAAABBjMUQsAgAAa5wAAAAAAACQYzFELAIAAFQEAAAAAAAAEGMx"
 			"RCwCAABrnAAAAAAAALBjMUQsAgAAUwQAAAAAAAAQYzFELAIAAGucAAAAAAAA0GMxRCwCAABLBAAA"
 			"AAAAABBjMUQsAgAAa5wAAAAAAADwYzFELAIAABgAAAAAAAAAQCGE8f1/AAABAAAAAAAAAAAAAAAA"
-			"AAAA5iYAABsAAADmJgAAHgAAAAAAAAAAAAAAcGQxRCwCAAAAAAAAAA=="
+			"AAAA5iYAABsAAADmJgAAHgAAAAAAAAAAAAAAcGQxRCwCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 		(uuid "f65fec7e-f022-4b37-a05c-39d394a2faee")
 	)
 	(via
-		(at 137.72 154.13)
+		(at 137.82 154.16)
 		(size 3.5)
 		(drill 3)
 		(layers "F.Cu" "B.Cu")
@@ -29436,7 +29454,7 @@
 		(uuid "024b462d-afca-41b3-97c9-f23bc8a90f8c")
 	)
 	(via
-		(at 56.44 154.13)
+		(at 56.54 154.16)
 		(size 3.5)
 		(drill 3.2)
 		(layers "F.Cu" "B.Cu")
@@ -29455,7 +29473,7 @@
 		(uuid "56863f25-6bd6-48f9-a4ff-74db9e526523")
 	)
 	(via
-		(at 131.37 105.87)
+		(at 131.47 105.84)
 		(size 3.5)
 		(drill 3)
 		(layers "F.Cu" "B.Cu")
@@ -29474,7 +29492,7 @@
 		(uuid "ccb04ffd-c2f1-4076-bf95-b72617159618")
 	)
 	(via
-		(at 56.44 105.87)
+		(at 56.54 105.84)
 		(size 3.5)
 		(drill 3.2)
 		(layers "F.Cu" "B.Cu")
