@@ -11740,7 +11740,7 @@
 		)
 		(uuid "46dc707d-d277-428c-8c95-136e10f99d1c")
 	)
-	(hierarchical_label "RX2"
+	(hierarchical_label "RXD2"
 		(shape input)
 		(at 193.04 146.05 180)
 		(effects
@@ -11894,7 +11894,7 @@
 		)
 		(uuid "89bb76d7-007f-44ac-803c-ca9b12293dff")
 	)
-	(hierarchical_label "RX3"
+	(hierarchical_label "RXD3"
 		(shape input)
 		(at 193.04 123.19 180)
 		(effects
@@ -11949,7 +11949,7 @@
 		)
 		(uuid "9a3b1f7c-98eb-47c8-876d-9a46cb12a051")
 	)
-	(hierarchical_label "TX2"
+	(hierarchical_label "TXD2"
 		(shape input)
 		(at 193.04 148.59 180)
 		(effects
@@ -12114,7 +12114,7 @@
 		)
 		(uuid "ecd5cab3-83fd-4f44-893c-8fd1de00f2cb")
 	)
-	(hierarchical_label "TX3"
+	(hierarchical_label "TXD3"
 		(shape input)
 		(at 193.04 125.73 180)
 		(effects
