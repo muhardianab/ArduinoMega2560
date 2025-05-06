@@ -3841,172 +3841,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SL_Pin_Headers:PINHD_1x2_Male"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PINHD_1x2_Male"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-				(at 1.27 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Pin Header"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PinHeader_1x02_P2.54mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PINHD_1x2_Male_0_1"
-				(rectangle
-					(start -1.27 2.54)
-					(end 1.27 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PINHD_1x2_Male_1_1"
-				(pin passive line
-					(at -3.81 1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_SL_Pin_Headers:PINHD_1x8_Female"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4566,424 +4400,6 @@
 				)
 			)
 			(symbol "PINHD_1x8_Female_1_1"
-				(pin passive line
-					(at -3.81 8.89 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 6.35 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 3.81 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -1.27 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -3.81 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -6.35 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -8.89 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_SL_Pin_Headers:PINHD_1x8_Male"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PINHD_1x8_Male"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-				(at -1.27 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Pin Header"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PinHeader_1x08_P2.54mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PINHD_1x8_Male_0_1"
-				(rectangle
-					(start -1.27 10.16)
-					(end 1.27 -10.16)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 8.89) (xy 0 8.89)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 8.89) (xy 0 8.89)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy 0 6.35)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy 0 6.35)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.81) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -6.35) (xy 0 -6.35)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -6.35) (xy 0 -6.35)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -8.89) (xy 0 -8.89)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -8.89) (xy 0 -8.89)
-					)
-					(stroke
-						(width 0.5)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PINHD_1x8_Male_1_1"
 				(pin passive line
 					(at -3.81 8.89 0)
 					(length 2.54)
@@ -6040,12 +5456,6 @@
 		(uuid "735d861e-b7f0-49aa-9bc3-c179851c2724")
 	)
 	(junction
-		(at 342.9 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bc139a2-9f78-40b8-8a07-58191961673c")
-	)
-	(junction
 		(at 345.44 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6098,12 +5508,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1750661-a708-4171-a6bb-176c91442d46")
-	)
-	(junction
-		(at 342.9 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d204988c-cef3-41c6-939f-414f0b5c9730")
 	)
 	(junction
 		(at 313.69 139.7)
@@ -6316,15 +5720,6 @@
 		(uuid "52840f70-1fac-4ea9-9cf1-25e8fb3f1623")
 	)
 	(bus_entry
-		(at 306.07 168.91)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53088e22-b881-487a-9c48-9a00b7396f11")
-	)
-	(bus_entry
 		(at 300.99 106.68)
 		(size 2.54 2.54)
 		(stroke
@@ -6350,15 +5745,6 @@
 			(type default)
 		)
 		(uuid "5f1e01e3-79af-4f35-8e6f-d364dd2d4f63")
-	)
-	(bus_entry
-		(at 306.07 171.45)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "604bcaf3-94f8-4c04-a2f8-64bffa30b5e8")
 	)
 	(bus_entry
 		(at 300.99 71.12)
@@ -6431,24 +5817,6 @@
 			(type default)
 		)
 		(uuid "6fccd1d7-b7b4-4d36-895a-1d9b6b4015b6")
-	)
-	(bus_entry
-		(at 306.07 176.53)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "723ddadc-f6ef-4f6b-9641-01ed0f96efb8")
-	)
-	(bus_entry
-		(at 306.07 173.99)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73dd93bf-aa0c-47d3-87db-d2ee08aa4e45")
 	)
 	(bus_entry
 		(at 247.65 110.49)
@@ -6649,15 +6017,6 @@
 		(uuid "b0fd0f62-420f-46bd-a724-b4e9bed708d9")
 	)
 	(bus_entry
-		(at 306.07 166.37)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b98fc25c-0ba5-466b-82a4-17879d7898e0")
-	)
-	(bus_entry
 		(at 190.5 82.55)
 		(size 2.54 2.54)
 		(stroke
@@ -6728,15 +6087,6 @@
 			(type default)
 		)
 		(uuid "dd9d91f6-a575-41fd-a356-1a8c1c853525")
-	)
-	(bus_entry
-		(at 306.07 179.07)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deb25402-f01d-4a37-b963-caafeab33f81")
 	)
 	(bus_entry
 		(at 182.88 130.81)
@@ -6830,16 +6180,6 @@
 			(type default)
 		)
 		(uuid "02f60437-6a74-461b-b145-d60ae3c30491")
-	)
-	(wire
-		(pts
-			(xy 306.07 184.15) (xy 311.15 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03ae9900-3401-424b-a3dc-ebd8f02667a9")
 	)
 	(wire
 		(pts
@@ -7051,16 +6391,6 @@
 		)
 		(uuid "144c76a2-dddc-4288-b963-9ed106fc3b78")
 	)
-	(bus
-		(pts
-			(xy 306.07 166.37) (xy 306.07 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "149fb853-8f11-4880-8378-ae876035e27c")
-	)
 	(wire
 		(pts
 			(xy 245.11 110.49) (xy 240.03 110.49)
@@ -7163,16 +6493,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 176.53) (xy 311.15 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1943e013-5cf1-45a2-9bb4-c082d6e55220")
-	)
-	(wire
-		(pts
 			(xy 193.04 163.83) (xy 199.39 163.83)
 		)
 		(stroke
@@ -7243,16 +6563,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 80.01) (xy 342.9 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fe3182c-4b93-479e-a226-e937de6ce18c")
-	)
-	(wire
-		(pts
 			(xy 195.58 69.85) (xy 199.39 69.85)
 		)
 		(stroke
@@ -7290,16 +6600,6 @@
 			(type default)
 		)
 		(uuid "22697a20-f231-4c9f-9042-a243632c1715")
-	)
-	(bus
-		(pts
-			(xy 306.07 176.53) (xy 306.07 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24da996a-d20a-49d4-bf89-1ad19d2786ee")
 	)
 	(wire
 		(pts
@@ -7483,16 +6783,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 181.61) (xy 323.85 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "309b2921-875d-4552-a302-005499c394a3")
-	)
-	(wire
-		(pts
 			(xy 316.23 135.89) (xy 316.23 142.24)
 		)
 		(stroke
@@ -7600,16 +6890,6 @@
 			(type default)
 		)
 		(uuid "3a026bd4-5c2c-47d9-b343-b7be995bd986")
-	)
-	(bus
-		(pts
-			(xy 306.07 171.45) (xy 306.07 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b17c08c-9d06-4a7e-8ace-a640ad245442")
 	)
 	(wire
 		(pts
@@ -7873,16 +7153,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 83.82) (xy 342.9 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4df9058a-d447-4f7c-9986-c00add2e81b6")
-	)
-	(wire
-		(pts
 			(xy 181.61 107.95) (xy 199.39 107.95)
 		)
 		(stroke
@@ -7940,26 +7210,6 @@
 			(type default)
 		)
 		(uuid "52fea36c-e924-4bfc-899c-ae0e222c622b")
-	)
-	(wire
-		(pts
-			(xy 342.9 86.36) (xy 342.9 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "547954f6-812a-4fdc-959f-531ae7d058bb")
-	)
-	(wire
-		(pts
-			(xy 328.93 171.45) (xy 323.85 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56249d5e-0a4b-4f2c-a8d8-b288dbeae6b1")
 	)
 	(wire
 		(pts
@@ -8243,16 +7493,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 74.93) (xy 342.9 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bc1d062-2d43-4aa0-9a7c-bb13ab72aec3")
-	)
-	(wire
-		(pts
 			(xy 311.15 139.7) (xy 313.69 139.7)
 		)
 		(stroke
@@ -8423,16 +7663,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 184.15) (xy 323.85 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78254023-db36-48e3-83ba-79d4939d797f")
-	)
-	(wire
-		(pts
 			(xy 234.95 30.48) (xy 247.65 30.48)
 		)
 		(stroke
@@ -8553,16 +7783,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 77.47) (xy 345.44 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85dbb250-eeb4-4dc3-ae16-33fa323e5b97")
-	)
-	(wire
-		(pts
 			(xy 154.94 175.26) (xy 160.02 175.26)
 		)
 		(stroke
@@ -8643,16 +7863,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 186.69) (xy 323.85 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b765f47-6174-4414-9234-487b99484247")
-	)
-	(wire
-		(pts
 			(xy 265.43 179.07) (xy 240.03 179.07)
 		)
 		(stroke
@@ -8723,16 +7933,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 173.99) (xy 311.15 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90e5d091-d229-4554-a7cd-c002072dfbb2")
-	)
-	(wire
-		(pts
 			(xy 317.5 144.78) (xy 311.15 144.78)
 		)
 		(stroke
@@ -8793,16 +7993,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 173.99) (xy 323.85 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96397cd1-c14f-48d9-bc71-4298de8a9819")
-	)
-	(wire
-		(pts
 			(xy 323.85 101.6) (xy 331.47 101.6)
 		)
 		(stroke
@@ -8810,16 +8000,6 @@
 			(type default)
 		)
 		(uuid "96874e6c-4386-4ab8-ace4-83e6bba6e883")
-	)
-	(wire
-		(pts
-			(xy 328.93 176.53) (xy 323.85 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97e5d040-5c51-48e2-aaa5-248f13ed81cc")
 	)
 	(wire
 		(pts
@@ -8931,16 +8111,6 @@
 		)
 		(uuid "a1411a45-69c5-4866-a5a8-f574bc3436ed")
 	)
-	(wire
-		(pts
-			(xy 308.61 168.91) (xy 311.15 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1502bdf-0494-44c3-93c3-573d44d0b87e")
-	)
 	(bus
 		(pts
 			(xy 334.01 99.06) (xy 334.01 101.6)
@@ -8990,16 +8160,6 @@
 			(type default)
 		)
 		(uuid "a5276529-b676-4e9e-ad50-245cd351eb6d")
-	)
-	(bus
-		(pts
-			(xy 297.18 166.37) (xy 306.07 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5d3b971-cead-42f7-835b-bb47455452a9")
 	)
 	(wire
 		(pts
@@ -9203,16 +8363,6 @@
 	)
 	(bus
 		(pts
-			(xy 306.07 173.99) (xy 306.07 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4dda214-8e25-424f-b93f-c4e48b1f244d")
-	)
-	(bus
-		(pts
 			(xy 292.1 83.82) (xy 300.99 83.82)
 		)
 		(stroke
@@ -9240,16 +8390,6 @@
 			(type default)
 		)
 		(uuid "b6a25ec9-b0b7-4179-afc5-0abb1d9125a0")
-	)
-	(wire
-		(pts
-			(xy 342.9 80.01) (xy 342.9 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b70c9097-2e5e-433b-abd2-ffb7cd10991d")
 	)
 	(bus
 		(pts
@@ -9293,16 +8433,6 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 86.36) (xy 342.9 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba569014-98cd-4de6-acf6-d8f961a49eb0")
-	)
-	(wire
-		(pts
 			(xy 81.28 41.91) (xy 81.28 38.1)
 		)
 		(stroke
@@ -9310,16 +8440,6 @@
 			(type default)
 		)
 		(uuid "bb403fd8-2786-4e53-abf9-aad16001b74c")
-	)
-	(bus
-		(pts
-			(xy 306.07 168.91) (xy 306.07 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb41a4b0-71ee-463a-af32-041485029f36")
 	)
 	(wire
 		(pts
@@ -9713,16 +8833,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 179.07) (xy 311.15 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9fad881-18f7-4a27-a841-c739925b6f56")
-	)
-	(wire
-		(pts
 			(xy 161.29 64.77) (xy 199.39 64.77)
 		)
 		(stroke
@@ -9750,16 +8860,6 @@
 			(type default)
 		)
 		(uuid "dc5e01a0-5b2c-4068-bdf3-82d98a4ba8c7")
-	)
-	(wire
-		(pts
-			(xy 328.93 179.07) (xy 323.85 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc76e48a-f79a-43a7-ae72-3deffdb543f9")
 	)
 	(wire
 		(pts
@@ -9843,16 +8943,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 186.69) (xy 311.15 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e43b1ee3-d5d5-41d4-81e0-443dbb3f368a")
-	)
-	(wire
-		(pts
 			(xy 185.42 135.89) (xy 199.39 135.89)
 		)
 		(stroke
@@ -9860,16 +8950,6 @@
 			(type default)
 		)
 		(uuid "e4900796-bfb6-4cbe-9469-6306f5f9a090")
-	)
-	(wire
-		(pts
-			(xy 308.61 171.45) (xy 311.15 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4db33e2-7ff6-4605-8c65-2bb25c783d2c")
 	)
 	(wire
 		(pts
@@ -9920,16 +9000,6 @@
 			(type default)
 		)
 		(uuid "e9ebebda-019e-40da-a511-90244bcdee48")
-	)
-	(wire
-		(pts
-			(xy 308.61 181.61) (xy 311.15 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea1395b8-1e37-4063-9b86-8f760e7228b4")
 	)
 	(bus
 		(pts
@@ -9993,16 +9063,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 83.82) (xy 342.9 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f23cf86c-2899-4714-896f-e2c10397c2d2")
-	)
-	(wire
-		(pts
 			(xy 303.53 104.14) (xy 311.15 104.14)
 		)
 		(stroke
@@ -10040,16 +9100,6 @@
 			(type default)
 		)
 		(uuid "f4840bfa-9aae-4c67-932e-20466d18f3f0")
-	)
-	(wire
-		(pts
-			(xy 328.93 168.91) (xy 323.85 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5536d1d-1460-485e-af92-88044e51ef99")
 	)
 	(bus
 		(pts
@@ -10470,16 +9520,6 @@
 			(justify left bottom)
 		)
 		(uuid "257c561d-3ab7-4153-8150-355fc96d4702")
-	)
-	(label "PJ[2..7]"
-		(at 297.18 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26d2d262-1093-4ede-b66c-19a08cf2ac1a")
 	)
 	(label "ADC8"
 		(at 191.77 100.33 0)
@@ -11753,17 +10793,6 @@
 	)
 	(hierarchical_label "PH7"
 		(shape input)
-		(at 306.07 186.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4fec6001-9c2b-4fb1-a528-69018ac1048b")
-	)
-	(hierarchical_label "PH7"
-		(shape input)
 		(at 193.04 163.83 180)
 		(effects
 			(font
@@ -11817,17 +10846,6 @@
 		)
 		(uuid "6e017e2f-d4c6-4ea9-bb4f-87bd60fa1f46")
 	)
-	(hierarchical_label "PE7"
-		(shape input)
-		(at 328.93 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6f5d367e-6d17-4421-92db-85c787576c74")
-	)
 	(hierarchical_label "PD7"
 		(shape input)
 		(at 247.65 140.97 0)
@@ -11861,28 +10879,6 @@
 		)
 		(uuid "8487a6c4-bb2f-467a-af3d-2cf29a2fb05f")
 	)
-	(hierarchical_label "PH2"
-		(shape input)
-		(at 306.07 184.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "85cfd653-24b6-462f-af24-f07c2443dab2")
-	)
-	(hierarchical_label "PD4"
-		(shape input)
-		(at 328.93 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "872c2fbc-798e-4cdf-9408-5c90e6cc8a67")
-	)
 	(hierarchical_label "TXD1"
 		(shape input)
 		(at 247.65 130.81 0)
@@ -11905,17 +10901,6 @@
 		)
 		(uuid "8d5cf38b-8f01-4681-b549-214af1d1fd03")
 	)
-	(hierarchical_label "PE6"
-		(shape input)
-		(at 328.93 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "921f2975-fdc9-4581-8676-da78a3d1b97a")
-	)
 	(hierarchical_label "PD4"
 		(shape input)
 		(at 247.65 133.35 0)
@@ -11937,17 +10922,6 @@
 			(justify right)
 		)
 		(uuid "951e478d-4cf6-4a0a-aa69-593de107a8de")
-	)
-	(hierarchical_label "PD5"
-		(shape input)
-		(at 328.93 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9a3b1f7c-98eb-47c8-876d-9a46cb12a051")
 	)
 	(hierarchical_label "TXD2"
 		(shape input)
@@ -12026,17 +11000,6 @@
 		)
 		(uuid "a8aa82d3-64a3-4746-a7d8-4824d5977d08")
 	)
-	(hierarchical_label "PG3"
-		(shape input)
-		(at 328.93 184.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c2f7021d-b20d-43ec-9d0a-772af717ce39")
-	)
 	(hierarchical_label "PB2"
 		(shape input)
 		(at 247.65 82.55 0)
@@ -12092,28 +11055,6 @@
 		)
 		(uuid "e1746b52-afaf-4d2f-b603-313a75eed662")
 	)
-	(hierarchical_label "PE2"
-		(shape input)
-		(at 328.93 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e993bcdb-7d70-44d4-93d1-2c5286983c8a")
-	)
-	(hierarchical_label "PG4"
-		(shape input)
-		(at 328.93 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ecd5cab3-83fd-4f44-893c-8fd1de00f2cb")
-	)
 	(hierarchical_label "TXD3"
 		(shape input)
 		(at 193.04 125.73 180)
@@ -12135,17 +11076,6 @@
 			(justify left)
 		)
 		(uuid "ef44b148-77ab-4512-824d-6e1334c09bd4")
-	)
-	(hierarchical_label "PD6"
-		(shape input)
-		(at 328.93 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "effa6784-e302-49d7-8c9c-f85d1813719f")
 	)
 	(hierarchical_label "PH5"
 		(shape input)
@@ -12257,6 +11187,91 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x8_Female")
+		(at 321.31 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "033b852e-5076-48f7-8b92-ae4901fa8cb4")
+		(property "Reference" "COM1"
+			(at 333.502 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PINHD_1x8_Female"
+			(at 333.502 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+			(at 323.85 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -8"
+			(at 321.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "f5f0b135-8fb5-49ec-921a-932f37dec506")
+		)
+		(pin "4"
+			(uuid "78ef5d83-772b-448c-a307-bfedf2564e3b")
+		)
+		(pin "7"
+			(uuid "0b68a561-31d5-488c-ab88-60db5df9c3b9")
+		)
+		(pin "5"
+			(uuid "d812569c-ded0-46d2-bb69-51cffe01b1e3")
+		)
+		(pin "8"
+			(uuid "7886b673-65d0-424e-ab15-80d4ec2443ea")
+		)
+		(pin "1"
+			(uuid "c9ac7239-7bd7-4fdf-b6fa-2e94da90c0f0")
+		)
+		(pin "2"
+			(uuid "03dfd0cf-a5a7-4b44-9634-5a7aece320af")
+		)
+		(pin "3"
+			(uuid "bd3f6667-b5ed-47ae-ac1e-32bdafaaa8a7")
+		)
+		(instances
+			(project "ArduinoMega2560"
+				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
+					(reference "COM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0603")
 		(at 336.55 127 90)
 		(unit 1)
@@ -12326,145 +11341,6 @@
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
 					(reference "RN12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Connector:Conn_02x08")
-		(at 317.5 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c629018-627d-4f0f-9891-738dfe790451")
-		(property "Reference" "J5"
-			(at 317.5 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x08"
-			(at 317.5 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_4ms_Connector:Pins_2x08_2.54mm_TH"
-			(at 327.66 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 317.5 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 317.5 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications" "Header, Male Pins, 2*8, spacing 2.54mm, straight pin"
-			(at 317.5 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TAD"
-			(at 317.5 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "1-1602FBV0T"
-			(at 317.5 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "28792296-d4b8-48f8-bfc2-77f7c1146c50")
-		)
-		(pin "2"
-			(uuid "e4de4ea7-c6a0-456e-81fd-5abd5b9d37fe")
-		)
-		(pin "1"
-			(uuid "6b458a04-bfba-4fc7-8a23-abe6513011f8")
-		)
-		(pin "10"
-			(uuid "96e4075e-b376-438f-bc72-fff8bf99778a")
-		)
-		(pin "15"
-			(uuid "52fa0433-8e54-47cb-b8f1-602e6c44672a")
-		)
-		(pin "4"
-			(uuid "56bfc064-35f5-4b97-be47-358341a3122a")
-		)
-		(pin "6"
-			(uuid "574b8bd7-5d32-4b43-adf1-01b752507740")
-		)
-		(pin "13"
-			(uuid "3d3c3215-996c-4367-be13-b06a76583eea")
-		)
-		(pin "8"
-			(uuid "1039656d-957a-4512-8bfe-f23b8d4a03de")
-		)
-		(pin "3"
-			(uuid "2a8722fb-29b4-468f-88af-e91d5cd740e5")
-		)
-		(pin "9"
-			(uuid "aee31138-ee8e-4594-aa56-9434e572bfed")
-		)
-		(pin "11"
-			(uuid "958f48f8-85d4-4a21-9cba-012c475b44b4")
-		)
-		(pin "16"
-			(uuid "c978a179-80f2-4a85-9841-d698e9b958fb")
-		)
-		(pin "7"
-			(uuid "fb67cbd0-6605-4855-b476-d5bf3b8f3153")
-		)
-		(pin "5"
-			(uuid "78f62f68-54c3-4f82-9955-b622494c2a2b")
-		)
-		(pin "12"
-			(uuid "7dab38d1-3375-438c-adb4-39020310abc6")
-		)
-		(instances
-			(project "ArduinoMega2560"
-				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -12611,34 +11487,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 342.9 74.93 0)
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x8_Female")
+		(at 269.24 177.8 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "107b8d37-b138-4af0-aadd-a5507b86ab37")
-		(property "Reference" "#PWR026"
-			(at 342.9 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 342.9 69.85 0)
+		(uuid "119b2043-e80d-4f1d-9c22-90b0f8a1adda")
+		(property "Reference" "ADC2"
+			(at 281.432 176.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 342.9 74.93 0)
+		(property "Value" "PINHD_1x8_Female"
+			(at 281.432 179.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+			(at 271.78 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,7 +11522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 74.93 0)
+			(at 269.24 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12655,21 +11530,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 342.9 74.93 0)
+		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -8"
+			(at 269.24 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
+		(pin "6"
+			(uuid "ae0adeab-acdd-4ce0-b138-2f584b196195")
+		)
+		(pin "4"
+			(uuid "fb4b6f4c-8ed3-4089-8215-b5f4b229fd84")
+		)
+		(pin "7"
+			(uuid "efdfc70e-ae46-4af5-84e8-571a86a84eda")
+		)
+		(pin "5"
+			(uuid "da4a32cb-8df8-41cb-bb29-61fb07d5b903")
+		)
+		(pin "8"
+			(uuid "41c69acd-be0e-48ad-b1fd-08ae37780275")
+		)
 		(pin "1"
-			(uuid "3119a993-2cc6-4e6b-acfd-2f0a9c4e6a86")
+			(uuid "7ae6e333-536c-4cb0-9bfe-2458a700eb32")
+		)
+		(pin "2"
+			(uuid "eaed849f-edee-475c-9faf-125a16d67cdb")
+		)
+		(pin "3"
+			(uuid "d8e40ff7-0eb9-4234-a506-da4b4cdd7793")
 		)
 		(instances
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
-					(reference "#PWR026")
+					(reference "ADC2")
 					(unit 1)
 				)
 			)
@@ -12787,76 +11684,6 @@
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
-		(at 349.25 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "175f84a2-0df5-46c0-b007-c1261ad363df")
-		(property "Reference" "J3"
-			(at 351.79 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PINHD_1x2_Male"
-			(at 351.79 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 350.52 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
-			(at 349.25 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3cc7526-6b23-4c5e-90c2-315c0cfda0d7")
-		)
-		(pin "2"
-			(uuid "1e365213-9909-4d98-b07a-d7e38b2876d2")
-		)
-		(instances
-			(project "ArduinoMega2560"
-				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13082,7 +11909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Connector:Pins_2x08_2.54mm_TH"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical"
 			(at 327.66 125.73 0)
 			(effects
 				(font
@@ -13515,76 +12342,6 @@
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
-		(at 349.25 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3848fc31-953d-4f6d-be5a-877a1dea258b")
-		(property "Reference" "J4"
-			(at 351.79 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PINHD_1x2_Male"
-			(at 351.79 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 350.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
-			(at 349.25 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b5daab1-f0dd-4afc-b7a8-2d9bcd7f0a72")
-		)
-		(pin "2"
-			(uuid "a3e25aab-22d7-4fc2-8b2a-b8aec4a82712")
-		)
-		(instances
-			(project "ArduinoMega2560"
-				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -14045,6 +12802,91 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x8_Female")
+		(at 270.51 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ecad979-4705-48e9-983b-bd6e2142afed")
+		(property "Reference" "PWM2"
+			(at 282.702 92.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PINHD_1x8_Female"
+			(at 282.702 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+			(at 273.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -8"
+			(at 270.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "2c770f2b-1629-47a6-b82b-dc5e2f219b8f")
+		)
+		(pin "4"
+			(uuid "6b47f281-dfed-42ba-92ef-b4f0e0cd94a8")
+		)
+		(pin "7"
+			(uuid "7b8905df-124b-4c88-9d89-436f1daa76b7")
+		)
+		(pin "5"
+			(uuid "7a58f34d-8e1e-4533-944f-95d9da3f16bf")
+		)
+		(pin "8"
+			(uuid "86539ea8-9616-414c-98ab-aec5053d9cff")
+		)
+		(pin "1"
+			(uuid "e87f468f-7ec9-4dc9-b729-ba2180415329")
+		)
+		(pin "2"
+			(uuid "70cf5f19-d389-44d8-8660-ffdb20801954")
+		)
+		(pin "3"
+			(uuid "f96452c4-2e3a-4881-9f72-b7beeea4445a")
+		)
+		(instances
+			(project "ArduinoMega2560"
+				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
+					(reference "PWM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resonators_CSTCE16M0V53-R0_Murata:CSTCE16M0V53-R0")
 		(at 146.05 67.31 0)
 		(unit 1)
@@ -14357,6 +13199,91 @@
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x8_Female")
+		(at 177.8 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81b099c8-b20e-4b48-94f8-3e475a1adcf8")
+		(property "Reference" "ADC1"
+			(at 165.608 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PINHD_1x8_Female"
+			(at 165.608 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -8"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "02c0af57-6cb7-4fc0-bf82-b6440683525c")
+		)
+		(pin "4"
+			(uuid "2b31e2a1-3897-4a6b-b403-7038b916c2d0")
+		)
+		(pin "7"
+			(uuid "de57e59a-c7e5-466c-b47e-b1396753a9f9")
+		)
+		(pin "5"
+			(uuid "377e64f4-6d22-41f9-a7d5-8ec00d837ff5")
+		)
+		(pin "8"
+			(uuid "31b64490-0b7f-4736-9473-1540cfa824a8")
+		)
+		(pin "1"
+			(uuid "d4640a8b-a6ac-4748-b8be-21b1aa453660")
+		)
+		(pin "2"
+			(uuid "abfa1e82-8bb5-471f-907c-0ef44f969712")
+		)
+		(pin "3"
+			(uuid "b7431b4f-f9b0-46c8-afea-22b58201ec14")
+		)
+		(instances
+			(project "ArduinoMega2560"
+				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
+					(reference "ADC1")
 					(unit 1)
 				)
 			)
@@ -14728,158 +13655,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 342.9 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a73984c-d5e1-4da2-b8eb-79671698d2a5")
-		(property "Reference" "#PWR049"
-			(at 342.9 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 342.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 342.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5897b499-7a84-427e-a63b-b0c09041d7bd")
-		)
-		(instances
-			(project "ArduinoMega2560"
-				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x8_Male")
-		(at 269.24 177.8 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8dfb0797-d9b7-48b0-8955-616d10053882")
-		(property "Reference" "ADC2"
-			(at 271.78 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PINHD_1x8_Male"
-			(at 271.78 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 267.97 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "57131348-bae1-4364-ac03-155dc19d8d8b")
-		)
-		(pin "1"
-			(uuid "992ccf05-afc7-41d0-9255-acdc295c2779")
-		)
-		(pin "2"
-			(uuid "f3a6878c-c453-4bbb-9f6b-64ea7c3024e2")
-		)
-		(pin "7"
-			(uuid "31d8ff14-5371-4027-8656-feeb60be44e1")
-		)
-		(pin "4"
-			(uuid "6380a0e2-8a93-444c-bba4-38238ff12fe2")
-		)
-		(pin "5"
-			(uuid "4d8661af-56ee-4fe1-987f-31ab4eacb0e9")
-		)
-		(pin "6"
-			(uuid "78867b6c-3722-4f55-8d7d-f04152592cc2")
-		)
-		(pin "8"
-			(uuid "87d0326e-b491-4a71-bdb6-51764077a609")
-		)
-		(instances
-			(project "ArduinoMega2560"
-				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
-					(reference "ADC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 146.05 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14938,93 +13713,6 @@
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x8_Male")
-		(at 270.51 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "995982ee-de70-4a8b-bb76-19d212de8032")
-		(property "Reference" "PWM1"
-			(at 273.05 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PINHD_1x8_Male"
-			(at 273.05 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 269.24 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "00d0b71b-c04b-4753-9a2c-fbdbd542e164")
-		)
-		(pin "1"
-			(uuid "cae41174-abf9-430e-84a2-c20936590983")
-		)
-		(pin "2"
-			(uuid "537bfb71-9b4a-44b5-ba59-08916a1dcf6e")
-		)
-		(pin "7"
-			(uuid "d969ccb1-df9d-4be2-ad14-4866294fb501")
-		)
-		(pin "4"
-			(uuid "743a76e6-d5e6-4a6a-9b8f-8c0e0e0d45c5")
-		)
-		(pin "5"
-			(uuid "2c1100df-c70d-4aa9-8874-da574f83ba25")
-		)
-		(pin "6"
-			(uuid "d79d4899-9e5c-4830-956a-441558c99c6c")
-		)
-		(pin "8"
-			(uuid "63708b56-2863-4d3e-b9e3-46270615b812")
-		)
-		(instances
-			(project "ArduinoMega2560"
-				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
-					(reference "PWM1")
 					(unit 1)
 				)
 			)
@@ -15541,7 +14229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Connector:Pins_2x08_2.54mm_TH"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical"
 			(at 327.66 90.17 0)
 			(effects
 				(font
@@ -15655,35 +14343,32 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x8_Male")
-		(at 321.31 148.59 0)
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x8_Female")
+		(at 270.51 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd9e2fd9-2dc3-4e60-b8f0-dcfab50c2123")
-		(property "Reference" "COM1"
-			(at 323.85 147.32 0)
+		(uuid "d1671da0-1064-426f-8138-c8030337c01f")
+		(property "Reference" "PWM1"
+			(at 282.702 155.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "PINHD_1x8_Male"
-			(at 323.85 149.86 0)
+		(property "Value" "PINHD_1x8_Female"
+			(at 282.702 153.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 320.04 132.08 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+			(at 273.05 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15692,7 +14377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 133.35 0)
+			(at 270.51 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15700,127 +14385,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 321.31 148.59 0)
+		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -8"
+			(at 270.51 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "210a4188-7a7c-4ae7-9a68-9e2039b3fdf8")
-		)
-		(pin "1"
-			(uuid "e81e8e5b-e0a6-47aa-bb65-aae834ea689e")
-		)
-		(pin "2"
-			(uuid "df906d80-fa4f-4ee8-ad57-090a982c6a66")
-		)
-		(pin "7"
-			(uuid "654d85dd-315e-44d2-a58a-5c03fe4a29c5")
+		(pin "6"
+			(uuid "90ac055e-abc3-4633-b9a4-000f3056b24e")
 		)
 		(pin "4"
-			(uuid "24f00e9e-ec66-4560-971f-2369d7ce6f89")
+			(uuid "91ff2d3a-2601-49f3-96d9-d0d4581f20a0")
+		)
+		(pin "7"
+			(uuid "ca5e3a99-aeb5-490d-b6a9-c5fb07dea425")
 		)
 		(pin "5"
-			(uuid "a4b7c72a-f280-410a-90c8-433222e460e5")
-		)
-		(pin "6"
-			(uuid "8f0d22d6-14fe-450c-a3ed-49f2fa647e1d")
+			(uuid "5491a504-ef53-48b9-ad58-a76fbc7ce9a8")
 		)
 		(pin "8"
-			(uuid "dd63f377-b794-4f9f-bda8-10fc728f976c")
+			(uuid "2f380430-46f4-40f2-ab9f-3105c45a0f41")
+		)
+		(pin "1"
+			(uuid "08138d0e-ce57-4296-9754-969781f4e828")
+		)
+		(pin "2"
+			(uuid "7d0e6eb6-f9c3-4c95-8264-f0115e965ff0")
+		)
+		(pin "3"
+			(uuid "b02296dd-c251-4244-a3ec-180301e5b811")
 		)
 		(instances
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
-					(reference "COM1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x8_Male")
-		(at 177.8 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cec5305e-54bf-41a1-b1db-ea3bf6e116f1")
-		(property "Reference" "ADC1"
-			(at 177.925 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PINHD_1x8_Male"
-			(at 177.925 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 179.07 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "ab93af63-4b7f-47b3-bc0f-3857854e4b0f")
-		)
-		(pin "1"
-			(uuid "f2e37594-d5a8-4931-8b83-fc6796b2e50f")
-		)
-		(pin "2"
-			(uuid "859c46b3-a34b-4576-87d3-97abb86fc12f")
-		)
-		(pin "7"
-			(uuid "e398a496-0e88-4381-a2e5-55379fac2b9a")
-		)
-		(pin "4"
-			(uuid "b3cefce1-3fb3-47f6-8b09-3f1de603393a")
-		)
-		(pin "5"
-			(uuid "82a14b14-255f-4d0a-a668-cf4c86c52047")
-		)
-		(pin "6"
-			(uuid "144fc898-92f8-4243-88c4-b446ac92a875")
-		)
-		(pin "8"
-			(uuid "0232a0df-cdda-41e0-9bbd-ed1664530448")
-		)
-		(instances
-			(project "ArduinoMega2560"
-				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
-					(reference "ADC1")
+					(reference "PWM1")
 					(unit 1)
 				)
 			)
@@ -16055,93 +14656,6 @@
 			(project "ArduinoMega2560"
 				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x8_Male")
-		(at 270.51 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e11a0f4e-f019-49d2-a8ca-01efb837cd0b")
-		(property "Reference" "PWM2"
-			(at 273.05 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PINHD_1x8_Male"
-			(at 273.05 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 269.24 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "623472bf-15c9-4a7c-a14c-9832457118f7")
-		)
-		(pin "1"
-			(uuid "6f82d30c-8313-400d-ba53-c205d24b4137")
-		)
-		(pin "2"
-			(uuid "d01777f8-a097-493d-9701-3c415d530a5a")
-		)
-		(pin "7"
-			(uuid "c6ac381f-e511-407e-9020-c11491a8af03")
-		)
-		(pin "4"
-			(uuid "7a58ac8e-be46-4c62-ae7a-50ee504f5520")
-		)
-		(pin "5"
-			(uuid "c1d1ded7-cf8b-42f9-82a2-7941f261f9d3")
-		)
-		(pin "6"
-			(uuid "d54613cc-8705-44e3-9e85-6132ba7d0afc")
-		)
-		(pin "8"
-			(uuid "d0a5ca37-0b07-4dab-b1ca-65f44d66ed59")
-		)
-		(instances
-			(project "ArduinoMega2560"
-				(path "/9c604cc5-1a6f-41a9-b015-ecf51c009c14"
-					(reference "PWM2")
 					(unit 1)
 				)
 			)
