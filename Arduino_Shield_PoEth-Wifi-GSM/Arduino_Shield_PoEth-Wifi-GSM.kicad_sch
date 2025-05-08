@@ -1,48 +1,98 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 00744368-faf2-4f6e-8fde-6584e08422b6)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 25.4 76.2) (size 25.4 38.1) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 5238eee7-729f-4732-95e2-6eb150e234ab)
-    (property "Sheetname" "Wifi" (at 25.4 75.4884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Wifi.kicad_sch" (at 25.4 114.8846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Arduino_Shield_PoEth-Wifi-GSM"
-        (path "/00744368-faf2-4f6e-8fde-6584e08422b6" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 25.4 26.67) (size 25.4 36.83) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 245 113 1.0000))
-    (uuid 8c23214b-35e1-4477-9fe9-7ddb9ea6380c)
-    (property "Sheetname" "PowerOverEthernet" (at 25.4 25.9584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "PowerOverEthernet.kicad_sch" (at 25.4 64.0846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Arduino_Shield_PoEth-Wifi-GSM"
-        (path "/00744368-faf2-4f6e-8fde-6584e08422b6" (page "2"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "00744368-faf2-4f6e-8fde-6584e08422b6")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 25.4 76.2)
+		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5238eee7-729f-4732-95e2-6eb150e234ab")
+		(property "Sheetname" "Wifi"
+			(at 25.4 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Wifi.kicad_sch"
+			(at 25.4 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Arduino_Shield_PoEth-Wifi-GSM"
+				(path "/00744368-faf2-4f6e-8fde-6584e08422b6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 26.67)
+		(size 25.4 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 245 113 1.0000)
+		)
+		(uuid "8c23214b-35e1-4477-9fe9-7ddb9ea6380c")
+		(property "Sheetname" "PowerOverEthernet"
+			(at 25.4 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerOverEthernet.kicad_sch"
+			(at 25.4 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Arduino_Shield_PoEth-Wifi-GSM"
+				(path "/00744368-faf2-4f6e-8fde-6584e08422b6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
