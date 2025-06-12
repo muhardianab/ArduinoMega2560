@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ATWINC1500_MR210PA'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "ATWINC1500-MR210PA" (!) = "", "ATWINC1500MR210PA", "Other", "556-WINC1500-MR210PA", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/ATWINC1500-MR210PA?qs=C0FNv%2F5jaI9at6Iw6IE9ag%3D%3D", "ATWINC1500-MR210PA", "https://www.arrow.com/en/products/atwinc1500-mr210pa/microchip-technology?region=nac", "Module 802.11b/g/n 2.484GHz 72000Kbps 28-Pin SMD Module", "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-42376-smartconnect-winc1500-mr210pa_datasheet.pdf", "3.353 mm"
+END_PART
+
+END.

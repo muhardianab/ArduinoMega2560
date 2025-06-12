@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=ATWINC1500-MR210PA
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=28
+Version=1.6
+Released=2021-09-15 13:07:24
+Downloaded=2025-06-12 17:51:45
+3D=Y

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ATWINC1500MR210PA"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ATWINC1500MR210PA")
+        (spec "default")
+    )
+)

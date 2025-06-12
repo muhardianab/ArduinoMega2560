@@ -4777,7 +4777,7 @@
 				)
 			)
 		)
-		(property "Display" "47uF"
+		(property "Display" "47uF 16V"
 			(at 59.69 66.04 90)
 			(effects
 				(font
@@ -5925,7 +5925,7 @@
 				)
 			)
 		)
-		(property "Display" "47uF"
+		(property "Display" "47uF 16V"
 			(at 127 66.04 90)
 			(effects
 				(font

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATWINC1500-MR210PA
+D Module 802.11b/g/n 2.484GHz 72000Kbps 28-Pin SMD Module
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-42376-smartconnect-winc1500-mr210pa_datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
