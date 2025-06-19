@@ -1,4 +1,4 @@
-47907928996418951
+47913180004870183
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57284,6 +57284,27 @@ FerriteBead_MH2029-300Y_Bourns
 IND_BOURNS_MH2029
 
 MH2029-300Y 
+0
+2
+2
+FerriteBead_MPZ1608S101ATAH0_TDK
+IND_1608_TDK
+
+MPZ1608S101ATAH0 
+0
+2
+2
+FerriteBead_MPZ1608S101ATAH0_TDK
+IND_1608_TDK-L
+
+MPZ1608S101ATAH0 
+0
+2
+2
+FerriteBead_MPZ1608S101ATAH0_TDK
+IND_1608_TDK-M
+
+MPZ1608S101ATAH0 
 0
 2
 2

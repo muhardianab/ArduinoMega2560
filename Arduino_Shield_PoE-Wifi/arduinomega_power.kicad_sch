@@ -5,31 +5,31 @@
 	(uuid "fa67da3c-bbd2-4bce-8054-f99168260476")
 	(paper "A4")
 	(lib_symbols
-		(symbol "LDO_LD1117S50CTR_STMicroelectronics:LD1117S50CTR"
+		(symbol "FerriteBead_MPZ1608S101ATAH0_TDK:MPZ1608S101ATAH0"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "PS"
-				(at 22.86 10.16 0)
+			(property "Reference" "L"
+				(at 6.985 5.08 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "LD1117S50CTR"
-				(at 22.86 7.62 0)
+			(property "Value" "MPZ1608S101ATAH0"
+				(at 7.112 -2.286 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "LDO_LD1117S50CTR_STMicroelectronics:SOT-223_STM"
-				(at 13.97 -11.176 0)
+			(property "Footprint" "FerriteBead_MPZ1608S101ATAH0_TDK:IND_1608_TDK"
+				(at 7.112 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,184 +38,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "LD1117S50CTR"
-				(at 14.478 -9.144 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 800mA SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LD1117S50CTR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT-223_STM SOT-223_STM-M SOT-223_STM-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LD1117S50CTR_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 38.1 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 -7.62) (xy 38.1 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_out line
-					(at 0 0 0)
-					(length 7.62)
-					(name "ADJ/GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 45.72 -2.54 180)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MOSFET_PMV48XP,215_Nexperia:PMV48XP_215"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 11.43 1.905 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "PMV48XP_215"
-				(at 18.288 -3.302 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "TO-236_SOT23_NEX"
-				(at 18.288 -6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "PMV48XP_215"
-				(at 15.494 -8.128 0)
+			(property "Datasheet" "MPZ1608S101ATAH0"
+				(at 8.128 -4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -233,15 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "PMV48XP,215"
+			(property "ki_keywords" "MPZ1608S101ATAH0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -250,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO-236_SOT23_NEX TO-236_SOT23_NEX-M TO-236_SOT23_NEX-L"
+			(property "ki_fp_filters" "IND_1608_TDK IND_1608_TDK-M IND_1608_TDK-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -259,10 +75,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "PMV48XP_215_0_1"
+			(symbol "MPZ1608S101ATAH0_1_1"
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 4.445 0)
+						(xy 2.54 0) (xy 2.54 1.27)
 					)
 					(stroke
 						(width 0.2032)
@@ -272,105 +88,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 4.445 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.905) (xy 6.985 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 6.985 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -0.635) (xy 5.08 0.635)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -1.905) (xy 6.985 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 0.635) (xy 6.985 0) (xy 5.715 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 6.35 0)
-					(radius 3.81)
+				(arc
+					(start 2.54 1.27)
+					(mid 3.81 2.5344)
+					(end 5.08 1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -381,7 +102,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.985 2.54) (xy 8.255 2.54)
+						(xy 5.08 0) (xy 5.08 1.27)
 					)
 					(stroke
 						(width 0.2032)
@@ -391,9 +112,21 @@
 						(type none)
 					)
 				)
+				(arc
+					(start 5.08 1.27)
+					(mid 6.35 2.5344)
+					(end 7.62 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 6.985 1.905) (xy 6.985 2.54)
+						(xy 7.62 0) (xy 7.62 1.27)
 					)
 					(stroke
 						(width 0.2032)
@@ -403,11 +136,12 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 6.985 -1.27)
-					(radius 0.0254)
+				(arc
+					(start 7.62 1.27)
+					(mid 8.89 2.5344)
+					(end 10.16 1.27)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -416,7 +150,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.985 -2.54) (xy 6.985 0)
+						(xy 10.16 0) (xy 10.16 1.27)
 					)
 					(stroke
 						(width 0.2032)
@@ -426,34 +160,12 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 6.985 -2.54) (xy 8.255 -2.54)
-					)
+				(arc
+					(start 10.16 1.27)
+					(mid 11.43 2.5344)
+					(end 12.7 1.27)
 					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 2.54)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 -2.54)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -462,43 +174,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.255 0.635) (xy 8.255 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 -2.54) (xy 8.255 0.635)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 1.905) (xy 7.62 1.905) (xy 8.255 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 0.635) (xy 7.62 0.635)
+						(xy 12.7 0) (xy 12.7 1.27)
 					)
 					(stroke
 						(width 0.2032)
@@ -511,7 +187,25 @@
 				(pin input line
 					(at 0 0 0)
 					(length 2.54)
-					(name "G"
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -526,17 +220,127 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 7.62 5.08 270)
+			)
+			(symbol "MPZ1608S101ATAH0_1_2"
+				(arc
+					(start -1.27 10.16)
+					(mid -2.5344 11.43)
+					(end -1.27 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 7.62)
+					(mid -2.5344 8.89)
+					(end -1.27 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 5.08)
+					(mid -2.5344 6.35)
+					(end -1.27 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 2.54)
+					(mid -2.5344 3.81)
+					(end -1.27 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 12.7) (xy -1.27 12.7)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy -1.27 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -1.27 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 15.24 270)
 					(length 2.54)
-					(name "D"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -544,10 +348,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 -5.08 90)
+				(pin unspecified line
+					(at 0 0 90)
 					(length 2.54)
-					(name "S"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -744,239 +548,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_Amplifier_Operational_AKL:LMV358IDGK"
-			(pin_names
-				(offset 0.2)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 2.54 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LMV358IDGK"
-				(at 2.54 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_Package_SO_AKL:MSOP-8_3x3mm_P0.65mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmv321.pdf?ts=1636614252990&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMV321"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SO-8 Quad CMOS Rail-to-Rail Operational Amplifier, 7mV Offset, 1MHz GBW, Alternate KiCAD Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "quad opamp operational amplifier cmos rail-to-rail LMV358"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LMV358IDGK_0_1"
-				(polyline
-					(pts
-						(xy -3.81 5.08) (xy -3.81 -5.08) (xy 6.35 0) (xy -3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LMV358IDGK_1_1"
-				(pin input line
-					(at -6.35 2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 -2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 6.35 270)
-					(length 3.18)
-					(name "V+"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -6.35 90)
-					(length 3.18)
-					(name "V-"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LMV358IDGK_2_1"
-				(pin input line
-					(at -6.35 2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 -2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1319,331 +890,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_LED_AKL:LED_0805_Yellow"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_0805_Yellow"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_LED_SMD_AKL:LED_0805_2012Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Yellow SMD LED, 0805, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "yellow LED diode generic smd 0805"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0805_Yellow_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 245 45 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.905) (xy 0.254 3.429)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 0 0 0 0)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 2.794) (xy -0.254 3.048) (xy 0.254 3.429) (xy 0.254 2.794)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.397) (xy 1.27 2.921)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.286) (xy 0.762 2.54) (xy 1.27 2.921) (xy 1.27 2.286)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_0805_Yellow_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 2.413) (xy -2.286 1.778) (xy -1.6764 1.9812) (xy -2.159 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.889) (xy -2.159 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 2.794) (xy -1.143 2.159) (xy -0.5334 2.3622) (xy -1.016 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 255 245 45 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.27) (xy -1.016 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 0.889) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_0805_Yellow_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LED_0805_Yellow_1_2"
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_Resistor_AKL:R_0603"
 			(pin_numbers
 				(hide yes)
@@ -1770,7 +1016,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SL_Capacitors:47uF_10V"
+		(symbol "PCM_SL_Capacitors:10uF_25V"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1782,7 +1028,7 @@
 					)
 				)
 			)
-			(property "Value" "47uF_10V"
+			(property "Value" "10uF_25V"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -1790,7 +1036,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+			(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 				(at 0.762 -3.81 0)
 				(effects
 					(font
@@ -1808,7 +1054,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "47uF, 10V Electrolytic Capacitor"
+			(property "Description" "10uF, 25V Electrolytic Capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1835,7 +1081,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "47uF_10V_0_0"
+			(symbol "10uF_25V_0_0"
 				(text "+"
 					(at -2.032 1.524 0)
 					(effects
@@ -1853,7 +1099,7 @@
 					)
 				)
 			)
-			(symbol "47uF_10V_0_1"
+			(symbol "10uF_25V_0_1"
 				(rectangle
 					(start -1.016 -2.286)
 					(end -0.508 2.286)
@@ -1877,7 +1123,7 @@
 					)
 				)
 			)
-			(symbol "47uF_10V_1_1"
+			(symbol "10uF_25V_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.7)
@@ -2089,40 +1335,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LP2985-3.3"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "PCM_Voltage_Regulator_AKL:LM7805MP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -6.35 5.715 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LP2985-3.3"
-				(at 0 5.715 0)
+			(property "Value" "LM7805MP"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 8.255 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp2985.pdf"
+			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-223-3_TabPin2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2131,7 +1364,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "150mA 16V Low-noise Low-dropout Regulator With Shutdown, 3.3V output voltage, SOT-23-5"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm340.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2140,7 +1373,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "LDO regulator linear  SOT-23-5"
+			(property "Description" "SOT-223 5V 1.5A 3-terminal voltage regulator, Alternate KiCad Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2149,7 +1382,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_keywords" "7805 5V 1.5A voltage regulator vreg pmic power supply 3-terminal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2158,10 +1391,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LP2985-3.3_0_1"
+			(symbol "LM7805MP_0_0"
 				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 4.445)
+					(start -5.08 1.27)
+					(end 5.08 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2170,12 +1403,20 @@
 						(type background)
 					)
 				)
+				(text "GND"
+					(at 0 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 			)
-			(symbol "LP2985-3.3_1_1"
+			(symbol "LM7805MP_1_1"
 				(pin power_in line
-					(at -10.16 2.54 0)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "VIN"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2190,10 +1431,129 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 0 0)
+				(pin power_in line
+					(at 0 -6.35 90)
 					(length 2.54)
-					(name "ON/~{OFF}"
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:AMS1117-3.3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-3.3"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117-3.3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117-3.3_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2218,7 +1578,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2227,34 +1587,16 @@
 					)
 				)
 				(pin power_out line
-					(at 10.16 2.54 180)
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "VOUT"
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "BP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3000,7 +2342,7 @@
 	)
 	(text "Power for Ethernet"
 		(exclude_from_sim no)
-		(at 222.25 28.702 0)
+		(at 248.158 19.05 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -3019,13 +2361,19 @@
 		(uuid "cbfc0f7b-3248-48a1-9766-78c90bde1e76")
 	)
 	(junction
-		(at 153.67 97.79)
+		(at 177.8 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "02f7968e-a8f5-4d9c-b733-75dc7b787f8c")
+		(uuid "07e399f4-eaab-4379-b2a2-0b49ae08585f")
 	)
 	(junction
-		(at 247.65 124.46)
+		(at 209.55 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d0bf781-cf5a-4eb8-aef7-8389b68ac7fb")
+	)
+	(junction
+		(at 237.49 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29e9b67d-04ca-453e-a225-76a7aa9b5590")
@@ -3035,6 +2383,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a2762b3-b29b-439b-b8e8-0271f4f331d6")
+	)
+	(junction
+		(at 237.49 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b5f6f4f-de78-4ba3-a75f-47a2cac37a19")
+	)
+	(junction
+		(at 209.55 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "431b90ec-38cf-40a7-8753-0d84f737931a")
 	)
 	(junction
 		(at 63.5 88.9)
@@ -3049,28 +2409,22 @@
 		(uuid "540b9b2b-a61e-4a33-a4c8-dd8596225450")
 	)
 	(junction
-		(at 182.88 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61a9b6ab-3dcf-4b64-b0e6-fd2ec9c7166e")
-	)
-	(junction
 		(at 50.8 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "659ccd56-636e-4188-9f2a-ff50c96cd34f")
 	)
 	(junction
-		(at 95.25 63.5)
+		(at 177.8 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a832b44-6857-4e8f-ac05-49d648ab0c0f")
+	)
+	(junction
+		(at 76.2 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "700f7c5e-f856-4e6e-83fb-efec3c61c6e3")
-	)
-	(junction
-		(at 215.9 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "767bb0ea-9307-4c89-8bda-79cffe643460")
 	)
 	(junction
 		(at 38.1 38.1)
@@ -3079,34 +2433,34 @@
 		(uuid "7a444d40-cf22-40e7-8644-c74998dfd739")
 	)
 	(junction
-		(at 209.55 110.49)
+		(at 196.85 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "957ea677-8954-4ca4-ab3a-beac1edff06b")
+		(uuid "85ef6be5-a521-4665-9132-5b437b0e3931")
 	)
 	(junction
-		(at 95.25 38.1)
+		(at 76.2 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "890de4a8-fc0d-4636-af59-77aa19ff020a")
+	)
+	(junction
+		(at 76.2 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99dcebaf-12d9-4f24-bfca-95ac13c979ec")
 	)
 	(junction
-		(at 171.45 97.79)
+		(at 237.49 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a0224283-b0c0-46f5-b96c-cf2786e1c04a")
+		(uuid "b9dccd76-73c5-478a-94d4-7bf6e21b072e")
 	)
 	(junction
-		(at 144.78 55.88)
+		(at 177.8 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b3b7e056-8022-4953-9565-14587b15eae4")
-	)
-	(junction
-		(at 38.1 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0e75472-2240-4180-896b-bc0cbba6f548")
+		(uuid "c9aeb91f-c749-4109-9ef9-712447d02159")
 	)
 	(junction
 		(at 114.3 158.75)
@@ -3121,7 +2475,7 @@
 		(uuid "d11d41b2-2baf-4a06-a0f7-eb4c19987e44")
 	)
 	(junction
-		(at 247.65 110.49)
+		(at 237.49 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f40faf35-322c-4f5a-88af-b13bc3e61207")
@@ -3138,19 +2492,9 @@
 		(color 0 0 0 0)
 		(uuid "f4ffef70-5aa1-40f8-b568-11f758f92e57")
 	)
-	(junction
-		(at 171.45 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6f7b2e0-9d86-41eb-960c-5d5d51df12cd")
-	)
-	(no_connect
-		(at 238.76 113.03)
-		(uuid "a8112c7b-3b9e-4363-a3ac-59b81321446f")
-	)
 	(wire
 		(pts
-			(xy 247.65 110.49) (xy 247.65 115.57)
+			(xy 237.49 38.1) (xy 237.49 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3160,7 +2504,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 38.1) (xy 38.1 38.1)
+			(xy 38.1 38.1) (xy 49.53 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3170,23 +2514,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 63.5) (xy 144.78 55.88)
+			(xy 237.49 96.52) (xy 242.57 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ae9c434-783e-4e29-b17f-c00d27b913f6")
+		(uuid "06bc1416-ea41-47a6-8394-58d52469d151")
 	)
 	(wire
 		(pts
-			(xy 198.12 87.63) (xy 198.12 102.87)
+			(xy 204.47 82.55) (xy 209.55 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b86df4e-ab6d-4664-9510-da58f85cfde1")
+		(uuid "1066aba9-775f-410a-929a-566093f0b6c4")
 	)
 	(wire
 		(pts
@@ -3210,16 +2554,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 114.3) (xy 171.45 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15d86a59-c9d1-478b-a94d-d34e8bc5da7f")
-	)
-	(wire
-		(pts
 			(xy 139.7 114.3) (xy 139.7 189.23)
 		)
 		(stroke
@@ -3231,33 +2565,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 33.02) (xy 95.25 38.1)
+			(xy 76.2 33.02) (xy 76.2 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1e860248-ec54-48bd-94b0-4205476566bd")
-	)
-	(wire
-		(pts
-			(xy 218.44 113.03) (xy 215.9 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fb30ce4-75ed-4969-8624-728c446a6bbc")
-	)
-	(wire
-		(pts
-			(xy 144.78 55.88) (xy 158.75 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "235c158e-94c2-41bf-9451-8245c737edf3")
 	)
 	(wire
 		(pts
@@ -3271,27 +2585,37 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 110.49) (xy 218.44 110.49)
+			(xy 231.14 82.55) (xy 237.49 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27d6b104-1e93-4e11-94ec-f27d7e1a0415")
+		(uuid "2ab206f0-854e-4c18-aaca-4be30f66f599")
 	)
 	(wire
 		(pts
-			(xy 168.91 55.88) (xy 166.37 55.88)
+			(xy 196.85 63.5) (xy 177.8 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dd435e6-f65b-4b19-a12a-9f5eecc2fb8e")
+		(uuid "305c97e3-1e79-47e3-81fc-b92efa64094d")
 	)
 	(wire
 		(pts
-			(xy 154.94 43.18) (xy 158.75 43.18)
+			(xy 229.87 38.1) (xy 237.49 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30cfe028-02e8-4a99-82bf-8f7d12842f31")
+	)
+	(wire
+		(pts
+			(xy 101.6 44.45) (xy 106.68 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3301,63 +2625,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 63.5) (xy 38.1 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33208e88-56fa-4e2a-aabb-91875ba000a2")
-	)
-	(wire
-		(pts
-			(xy 193.04 87.63) (xy 198.12 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3389d288-6ac9-4f14-ac04-192b40d9718d")
-	)
-	(wire
-		(pts
-			(xy 203.2 110.49) (xy 209.55 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "340104bd-7780-440a-bda2-53f5477311b1")
-	)
-	(wire
-		(pts
-			(xy 133.35 55.88) (xy 133.35 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3465327b-6d93-4b23-b78a-3bc90ad0ad5d")
-	)
-	(wire
-		(pts
-			(xy 38.1 50.8) (xy 38.1 53.34)
+			(xy 38.1 38.1) (xy 38.1 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "34c1cb52-34ac-4723-a9d8-b6ec796b94ca")
-	)
-	(wire
-		(pts
-			(xy 88.9 40.64) (xy 86.36 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3752cbcd-42ee-43ae-bb84-40ab192f059b")
 	)
 	(wire
 		(pts
@@ -3371,26 +2645,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 114.3) (xy 171.45 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38b70eae-e101-47e9-8158-c659943de36b")
-	)
-	(wire
-		(pts
-			(xy 171.45 85.09) (xy 177.8 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aecd9be-36a8-4e8e-81e1-5243a92d9407")
-	)
-	(wire
-		(pts
 			(xy 38.1 152.4) (xy 38.1 149.86)
 		)
 		(stroke
@@ -3401,23 +2655,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 128.27) (xy 228.6 120.65)
+			(xy 76.2 88.9) (xy 88.9 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4044bdf1-685b-4146-b866-c6865fdb856e")
-	)
-	(wire
-		(pts
-			(xy 171.45 109.22) (xy 171.45 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46caafb2-cf5a-4c25-8979-d25c409e439d")
+		(uuid "3f2be0a5-9156-4051-be06-5f60e88bcb52")
 	)
 	(wire
 		(pts
@@ -3428,36 +2672,6 @@
 			(type default)
 		)
 		(uuid "48443fa1-31a6-4857-beda-a8f12827bfce")
-	)
-	(wire
-		(pts
-			(xy 190.5 110.49) (xy 193.04 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4906426a-3e33-473f-a269-e000fdd2d1f7")
-	)
-	(wire
-		(pts
-			(xy 209.55 110.49) (xy 215.9 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b5b014b-6d7e-47cd-8f5b-7767e4d12ba1")
-	)
-	(wire
-		(pts
-			(xy 54.61 59.69) (xy 54.61 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e5b051b-cf3e-4f61-a4d3-9864c6566f81")
 	)
 	(wire
 		(pts
@@ -3482,13 +2696,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 38.1) (xy 101.6 38.1)
+			(xy 76.2 38.1) (xy 82.55 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "551bae8c-388f-4cd7-8d8f-d141cb970d5c")
+	)
+	(wire
+		(pts
+			(xy 177.8 82.55) (xy 177.8 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555292fa-80f7-4533-8ea8-dd9b222b7135")
 	)
 	(wire
 		(pts
@@ -3502,7 +2726,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 124.46) (xy 252.73 124.46)
+			(xy 237.49 52.07) (xy 242.57 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3522,6 +2746,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 82.55) (xy 237.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e679e34-08fc-4bd1-88b3-0f4857f60d73")
+	)
+	(wire
+		(pts
 			(xy 101.6 154.94) (xy 101.6 158.75)
 		)
 		(stroke
@@ -3532,17 +2766,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 139.7) (xy 76.2 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6555c08a-c47f-44f2-918d-4e61a4e86417")
-	)
-	(wire
-		(pts
-			(xy 154.94 33.02) (xy 154.94 43.18)
+			(xy 101.6 33.02) (xy 101.6 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3552,7 +2776,17 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 124.46) (xy 247.65 128.27)
+			(xy 191.77 82.55) (xy 196.85 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663659a9-5d72-4197-b134-e2bb91c63830")
+	)
+	(wire
+		(pts
+			(xy 237.49 52.07) (xy 237.49 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3572,26 +2806,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 55.88) (xy 182.88 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a77e688-64ab-4d0f-88de-ea2d426428b5")
-	)
-	(wire
-		(pts
-			(xy 153.67 110.49) (xy 153.67 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a8ae6a3-2e5d-4e9e-98cb-053261fb8d59")
-	)
-	(wire
-		(pts
 			(xy 50.8 88.9) (xy 63.5 88.9)
 		)
 		(stroke
@@ -3602,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 43.18) (xy 182.88 43.18)
+			(xy 127 44.45) (xy 133.35 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3612,7 +2826,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 120.65) (xy 247.65 124.46)
+			(xy 237.49 48.26) (xy 237.49 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3622,17 +2836,27 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 110.49) (xy 247.65 110.49)
+			(xy 209.55 38.1) (xy 209.55 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ffbf0ed-6570-4754-9494-fc3189648ef9")
+		(uuid "738453cd-9e84-42f7-b7dd-da66a1c6acfe")
 	)
 	(wire
 		(pts
-			(xy 182.88 43.18) (xy 182.88 55.88)
+			(xy 237.49 96.52) (xy 237.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73e6aad9-a818-42d7-b88a-dde4eab12f8c")
+	)
+	(wire
+		(pts
+			(xy 133.35 44.45) (xy 133.35 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3642,7 +2866,17 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 110.49) (xy 247.65 107.95)
+			(xy 196.85 38.1) (xy 209.55 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a49df6-737f-44fe-a6cf-117c3703f3ba")
+	)
+	(wire
+		(pts
+			(xy 237.49 38.1) (xy 237.49 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3662,7 +2896,27 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 63.5) (xy 95.25 69.85)
+			(xy 146.05 38.1) (xy 157.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a7490f6-60b5-47f5-b479-abbe4f0f3a02")
+	)
+	(wire
+		(pts
+			(xy 196.85 38.1) (xy 196.85 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80a56781-594a-4d33-bd78-71640a9c1d5e")
+	)
+	(wire
+		(pts
+			(xy 76.2 63.5) (xy 76.2 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3672,27 +2926,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 92.71) (xy 153.67 97.79)
+			(xy 88.9 92.71) (xy 88.9 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8986d438-14ca-47c6-80c2-ed71f2b8776c")
+		(uuid "89ec9983-4a97-42bd-9951-5a179e55e07c")
 	)
 	(wire
 		(pts
-			(xy 86.36 38.1) (xy 95.25 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ac78859-c1db-449b-aebb-22a2096eb17d")
-	)
-	(wire
-		(pts
-			(xy 95.25 53.34) (xy 95.25 38.1)
+			(xy 76.2 53.34) (xy 76.2 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3702,7 +2946,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 43.18) (xy 166.37 43.18)
+			(xy 114.3 44.45) (xy 119.38 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3722,13 +2966,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 55.88) (xy 144.78 45.72)
+			(xy 196.85 53.34) (xy 196.85 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96316d42-1bfb-441a-9ec7-be076ee6e485")
+		(uuid "98b4418e-0a15-42dd-b4ef-36301999267f")
 	)
 	(wire
 		(pts
@@ -3742,13 +2986,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 43.18) (xy 115.57 63.5)
+			(xy 165.1 45.72) (xy 165.1 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9eac3acb-c818-41b8-98f5-3eed4cb05390")
+		(uuid "9b834869-b13c-4752-813b-a4f3df17dfe4")
+	)
+	(wire
+		(pts
+			(xy 177.8 38.1) (xy 177.8 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c635760-6e28-4b4d-80b9-beec8d4689cc")
 	)
 	(wire
 		(pts
@@ -3772,16 +3026,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 97.79) (xy 153.67 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6144b18-f5c6-4934-ab69-92d3a3ac3ab8")
-	)
-	(wire
-		(pts
 			(xy 76.2 92.71) (xy 76.2 88.9)
 		)
 		(stroke
@@ -3792,7 +3036,17 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 63.5) (xy 100.33 63.5)
+			(xy 64.77 38.1) (xy 76.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6794d98-7de9-4ed6-a749-1b9df3ac3f9e")
+	)
+	(wire
+		(pts
+			(xy 76.2 63.5) (xy 81.28 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3822,33 +3076,23 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 90.17) (xy 177.8 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac7f1999-97c8-4db7-99ac-ef5b41ba4795")
-	)
-	(wire
-		(pts
-			(xy 124.46 48.26) (xy 127 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad56d01c-9e73-46fc-9b0f-78e34e1a1edf")
-	)
-	(wire
-		(pts
-			(xy 247.65 110.49) (xy 254 110.49)
+			(xy 237.49 38.1) (xy 243.84 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af20711e-4dbb-44a1-9c22-228efe858059")
+	)
+	(wire
+		(pts
+			(xy 146.05 33.02) (xy 146.05 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af31006f-073b-47e7-8698-4ddf23493675")
 	)
 	(wire
 		(pts
@@ -3862,13 +3106,23 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 50.8) (xy 38.1 50.8)
+			(xy 172.72 38.1) (xy 177.8 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5cd0853-6221-499f-8cba-4b42eaf45b91")
+		(uuid "b1723725-c640-4ecf-9f37-7cecb0f75bcb")
+	)
+	(wire
+		(pts
+			(xy 177.8 63.5) (xy 177.8 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5d9dbeb-2fa2-4355-8a52-5d153b5d22b2")
 	)
 	(wire
 		(pts
@@ -3879,16 +3133,6 @@
 			(type default)
 		)
 		(uuid "b87a9a5c-bcb3-459c-a623-6afe13b5a80a")
-	)
-	(wire
-		(pts
-			(xy 153.67 78.74) (xy 153.67 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb64fdc9-66b6-4f21-aa9c-901b1d014cc1")
 	)
 	(wire
 		(pts
@@ -3913,13 +3157,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 154.94) (xy 76.2 165.1)
+			(xy 237.49 82.55) (xy 243.84 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfb30335-6145-463c-a48c-81b1a3e515bb")
+		(uuid "c1212166-cab0-42f2-8a96-ccc8f6d086c7")
 	)
 	(wire
 		(pts
@@ -3933,33 +3177,23 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 33.02) (xy 133.35 39.37)
+			(xy 57.15 44.45) (xy 57.15 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c293afae-5813-42bd-a9b6-8029f228d258")
+		(uuid "c7b94ce2-cc03-4ddc-bb7f-995198fc5fc7")
 	)
 	(wire
 		(pts
-			(xy 115.57 63.5) (xy 144.78 63.5)
+			(xy 237.49 82.55) (xy 237.49 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c330375c-19e8-4a83-af05-c01abae53aed")
-	)
-	(wire
-		(pts
-			(xy 171.45 97.79) (xy 171.45 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c59b789c-c4d8-43c0-a76f-c757e5a56418")
+		(uuid "c84795c3-3272-4560-8c24-ca60c38006a2")
 	)
 	(wire
 		(pts
@@ -3983,53 +3217,23 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 78.74) (xy 171.45 85.09)
+			(xy 209.55 82.55) (xy 215.9 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cda58bff-b12f-41bc-9f43-fdaf4e579424")
+		(uuid "cac018ce-445b-4326-ac20-c247cbcbf059")
 	)
 	(wire
 		(pts
-			(xy 115.57 43.18) (xy 127 43.18)
+			(xy 209.55 38.1) (xy 214.63 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf77c47b-252b-4197-8fd3-f9471999688b")
-	)
-	(wire
-		(pts
-			(xy 144.78 45.72) (xy 142.24 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf9f930b-a2c3-4b68-aadd-bca8ae15efd1")
-	)
-	(wire
-		(pts
-			(xy 38.1 38.1) (xy 38.1 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d42d92e3-27db-467a-a278-5c977f5fddf9")
-	)
-	(wire
-		(pts
-			(xy 88.9 40.64) (xy 88.9 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4ce4210-5323-46c9-be14-25c27bef3bef")
+		(uuid "d7f742b7-a573-4559-ad60-3d889d549bb5")
 	)
 	(wire
 		(pts
@@ -4043,13 +3247,13 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 110.49) (xy 209.55 104.14)
+			(xy 177.8 82.55) (xy 184.15 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dba94dcd-ec08-4f64-94e6-b5c094d3642f")
+		(uuid "de10ef48-1ede-4723-b8fa-eb1e8d239b4e")
 	)
 	(wire
 		(pts
@@ -4060,6 +3264,16 @@
 			(type default)
 		)
 		(uuid "de8d130f-0bd6-4892-90ca-bf833db2f6c5")
+	)
+	(wire
+		(pts
+			(xy 177.8 38.1) (xy 196.85 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ddc78d-dc00-4008-b7f9-c94ab41a2871")
 	)
 	(wire
 		(pts
@@ -4094,16 +3308,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 54.61) (xy 54.61 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4b852ca-5b5f-47fe-8b3b-ec11586f84bf")
-	)
-	(wire
-		(pts
 			(xy 63.5 139.7) (xy 63.5 149.86)
 		)
 		(stroke
@@ -4114,23 +3318,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 113.03) (xy 215.9 110.49)
+			(xy 177.8 54.61) (xy 177.8 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee33eabe-2295-4bd0-a871-3f01442b6230")
-	)
-	(wire
-		(pts
-			(xy 182.88 55.88) (xy 182.88 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef921491-d6b9-4744-9fea-17beb36cbe4a")
+		(uuid "ee5a2171-273e-4c0e-9511-94812e6a4b3a")
 	)
 	(wire
 		(pts
@@ -4144,7 +3338,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 60.96) (xy 95.25 63.5)
+			(xy 76.2 60.96) (xy 76.2 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4164,65 +3358,36 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 104.14) (xy 171.45 97.79)
+			(xy 57.15 63.5) (xy 76.2 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc4a17d3-7e93-4730-8f82-5c6f162d9d16")
+		(uuid "fc5c6f5e-b32c-4a6e-b489-bf1c90dd1a1a")
 	)
 	(wire
 		(pts
-			(xy 153.67 97.79) (xy 171.45 97.79)
+			(xy 237.49 92.71) (xy 237.49 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fdc2007b-4d81-454c-86c4-7e6b0a4ce139")
+		(uuid "fe1cde86-97c9-42eb-bebc-998008a7a0d8")
 	)
-	(wire
-		(pts
-			(xy 88.9 63.5) (xy 95.25 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fff73ac8-c475-4a57-8fe9-2c8b22f306a8")
-	)
-	(label "+5V"
-		(at 212.09 110.49 0)
+	(hierarchical_label "+3V3B"
+		(shape input)
+		(at 243.84 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "379714db-d751-4ff2-9943-4ef7b1473b77")
+		(uuid "0050f755-cccf-4fb5-879a-a5778021465b")
 	)
-	(label "CMP"
-		(at 171.45 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68c8ee96-723b-457d-9be5-c62dc24ca4f2")
-	)
-	(label "GATE_CMD"
-		(at 194.31 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9641c226-dcab-486c-9e35-26820b79e8c5")
-	)
-	(hierarchical_label "GND_3V3_2"
+	(hierarchical_label "GNDC"
 		(shape input)
 		(at 96.52 158.75 180)
 		(effects
@@ -4255,20 +3420,20 @@
 		)
 		(uuid "3824c2b3-edb6-4663-8d4e-16fc06a9a97c")
 	)
-	(hierarchical_label "USBVCC"
+	(hierarchical_label "GNDB"
 		(shape input)
-		(at 190.5 110.49 180)
+		(at 242.57 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "4a220eef-c498-4736-acc3-48999233636d")
+		(uuid "4c5119ab-0f6f-4470-b7fe-1da1d7b8be0d")
 	)
 	(hierarchical_label "+5V"
 		(shape input)
-		(at 101.6 38.1 0)
+		(at 82.55 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4277,9 +3442,9 @@
 		)
 		(uuid "6c8fa698-5ae2-4fc3-bd5a-7c588106c148")
 	)
-	(hierarchical_label "GND_3V3_1"
+	(hierarchical_label "GNDA"
 		(shape input)
-		(at 252.73 124.46 0)
+		(at 242.57 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4288,7 +3453,7 @@
 		)
 		(uuid "7781f9f3-16ff-4565-a6c7-63f33ca5edaf")
 	)
-	(hierarchical_label "+3V3_2"
+	(hierarchical_label "+3V3C"
 		(shape input)
 		(at 96.52 147.32 180)
 		(effects
@@ -4301,7 +3466,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 100.33 63.5 0)
+		(at 81.28 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4310,20 +3475,9 @@
 		)
 		(uuid "a2d50606-caf5-49cf-ac0f-4f73282d0bf3")
 	)
-	(hierarchical_label "PB7"
+	(hierarchical_label "+3V3A"
 		(shape input)
-		(at 124.46 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e5f6a022-2257-407c-9798-f2e8bc792c99")
-	)
-	(hierarchical_label "+3V3_1"
-		(shape input)
-		(at 254 110.49 0)
+		(at 243.84 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4334,7 +3488,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 154.94 33.02 0)
+		(at 101.6 33.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4344,7 +3498,7 @@
 		(fields_autoplaced yes)
 		(uuid "0035298b-fa53-44a5-a429-704ae841d00d")
 		(property "Reference" "#PWR058"
-			(at 154.94 36.83 0)
+			(at 101.6 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +3507,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 154.94 27.94 0)
+			(at 101.6 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +3515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 33.02 0)
+			(at 101.6 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +3524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 33.02 0)
+			(at 101.6 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +3533,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 33.02 0)
+			(at 101.6 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,73 +3553,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 171.45 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03ca3281-6dd3-426a-a5b9-e608afe581c4")
-		(property "Reference" "#PWR017"
-			(at 171.45 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a68e21e8-6a2d-4947-a355-0cc64e0fee5c")
-		)
-		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
-				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_LED_AKL:LED_0805_Green")
-		(at 172.72 43.18 0)
+		(at 123.19 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4474,7 +3563,7 @@
 		(fields_autoplaced yes)
 		(uuid "0417e596-28f1-4328-bac2-9083c5e0e9cc")
 		(property "Reference" "ON1"
-			(at 172.72 34.29 0)
+			(at 123.19 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +3571,7 @@
 			)
 		)
 		(property "Value" "LED_0805_Green"
-			(at 172.72 36.83 0)
+			(at 123.19 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +3579,7 @@
 			)
 		)
 		(property "Footprint" "PCM_LED_SMD_AKL:LED_0805_2012Metric"
-			(at 172.72 43.18 0)
+			(at 123.19 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +3588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 43.18 0)
+			(at 123.19 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +3597,7 @@
 			)
 		)
 		(property "Description" "Green SMD LED, 0805, Alternate KiCad Library"
-			(at 172.72 43.18 0)
+			(at 123.19 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,134 +3686,18 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Capacitor:100nF_0603_16V")
-		(at 76.2 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0bdff28e-8e9b-4ee2-a304-41884dfc0fd9")
-		(property "Reference" "C3"
-			(at 78.74 151.1363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF_0603_16V"
-			(at 76.2 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0603"
-			(at 73.66 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
-			(at 73.66 160.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AVX Corporation"
-			(at 73.66 161.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "0603YC104KAT2A"
-			(at 73.66 163.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "0.1uF"
-			(at 78.74 153.6763 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C14663"
-			(at 77.47 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3a7f00e5-e7d1-438c-abae-614781506f30")
-		)
-		(pin "1"
-			(uuid "edcb30ee-bda1-4fa0-8fd6-764c28c2248c")
-		)
-		(instances
-			(project "Arduino_Shield_PoE-Wifi"
-				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 133.35 33.02 0)
+		(lib_id "power:GND")
+		(at 165.1 50.8 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0c2b528c-8ad1-44ac-a3a6-341bfb4cedee")
-		(property "Reference" "#PWR019"
-			(at 133.35 36.83 0)
+		(uuid "087eb920-9e90-4eb4-8bce-188090950d18")
+		(property "Reference" "#PWR075"
+			(at 165.1 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,8 +3705,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 133.35 27.94 0)
+		(property "Value" "GND"
+			(at 165.1 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,7 +3714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 33.02 0)
+			(at 165.1 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,7 +3723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 33.02 0)
+			(at 165.1 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +3732,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 33.02 0)
+			(at 165.1 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,38 +3740,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "b2585bc2-2e84-479d-bb85-45753fa212d1")
+			(uuid "3499428f-f6c0-4885-a688-7073096e918b")
 		)
 		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
+			(project "Arduino_Shield_PoE-Wifi"
 				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "#PWR019")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Capacitor:100nF_0603_16V")
-		(at 171.45 106.68 0)
+		(lib_id "power:+3.3V")
+		(at 237.49 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0f71c085-580d-479e-b945-91edcd14d5f0")
-		(property "Reference" "C12"
-			(at 173.99 105.4163 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF_0603_16V"
-			(at 171.45 102.87 0)
+		(uuid "09b0b59a-3bbb-4362-a1b0-281ff7403201")
+		(property "Reference" "#PWR011"
+			(at 237.49 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,18 +3770,25 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0603"
-			(at 168.91 111.76 0)
+		(property "Value" "+3V3B"
+			(at 237.49 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 106.68 0)
+			(at 237.49 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,71 +3797,20 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 106.68 0)
+			(at 237.49 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
-			(at 168.91 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AVX Corporation"
-			(at 168.91 116.078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "0603YC104KAT2A"
-			(at 168.91 117.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "0.1uF"
-			(at 173.99 107.9563 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C14663"
-			(at 172.72 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "210b08aa-d4a3-4aa4-b178-386f7592b9ef")
 		)
 		(pin "1"
-			(uuid "46b52cb9-f8aa-45b4-8057-aba620000c63")
+			(uuid "f2ab9085-6422-4f5f-a480-c782d45dd41a")
 		)
 		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
+			(project "Arduino_Shield_PoE-Wifi"
 				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "C12")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4904,7 +3824,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "14cf1ab0-de92-40fd-86cd-2d95b514fc60")
 		(property "Reference" "#PWR028"
 			(at 63.5 143.51 0)
@@ -4915,12 +3834,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_2"
-			(at 63.5 134.62 0)
+		(property "Value" "+3V3C"
+			(at 59.944 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4956,6 +3876,325 @@
 			(project "Arduino_Shield_PoE-Wifi"
 				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Capacitors:10uF_25V")
+		(at 76.2 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "166e56cd-0ebf-4b7d-8122-09117e6b9523")
+		(property "Reference" "Cp2"
+			(at 80.01 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF_25V"
+			(at 80.01 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 72.39 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF, 25V Electrolytic Capacitor"
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dace675e-e09a-4da4-b038-bd86b3ca0b78")
+		)
+		(pin "1"
+			(uuid "3e8369ed-9b62-4c34-bb41-c001edbba18c")
+		)
+		(instances
+			(project "Arduino_Shield_PoE-Wifi"
+				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
+					(reference "Cp2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17336572-03e2-48ff-954b-1ef2f1041437")
+		(property "Reference" "#PWR076"
+			(at 177.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "179dd79f-c80a-4988-8258-37d24e37226d")
+		)
+		(instances
+			(project "Arduino_Shield_PoE-Wifi"
+				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Capacitor:100nF_0603_16V")
+		(at 237.49 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "199fa132-cb47-421e-a912-ea016c4bb908")
+		(property "Reference" "C1"
+			(at 240.03 44.4563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF_0603_16V"
+			(at 237.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Capacitor:C_0603"
+			(at 234.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 234.95 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX Corporation"
+			(at 234.95 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603YC104KAT2A"
+			(at 234.95 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 240.03 46.9963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C14663"
+			(at 238.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36852565-384d-4320-85f7-6d4a9b05444b")
+		)
+		(pin "1"
+			(uuid "f4d73350-947c-4a42-ba38-a25fac88b485")
+		)
+		(instances
+			(project "Arduino_Shield_PoE-Wifi"
+				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 146.05 33.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "225e6bd8-2020-4949-b832-d43d9fbf19cc")
+		(property "Reference" "#PWR074"
+			(at 146.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 146.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ebaea03-5ab5-4e50-97c4-a962f6b46b92")
+		)
+		(instances
+			(project "Arduino_Shield_PoE-Wifi"
+				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -5038,6 +4277,123 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_4ms_Capacitor:100nF_0603_16V")
+		(at 196.85 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25b71053-263c-40d0-b85e-caec5725ae9b")
+		(property "Reference" "C3"
+			(at 199.39 49.5363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF_0603_16V"
+			(at 196.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_4ms_Capacitor:C_0603"
+			(at 194.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 194.31 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX Corporation"
+			(at 194.31 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603YC104KAT2A"
+			(at 194.31 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 199.39 52.0763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C14663"
+			(at 198.12 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6edb4df1-1a2c-4be0-a7a4-85e0a5bdffca")
+		)
+		(pin "1"
+			(uuid "2c0c6012-00d6-4522-b9ed-06c5d3577b9c")
+		)
+		(instances
+			(project "Arduino_Shield_PoE-Wifi"
+				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 38.1 69.85 0)
 		(unit 1)
@@ -5103,118 +4459,51 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 153.67 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28c59967-3d45-4abb-8052-a58b443db927")
-		(property "Reference" "#PWR056"
-			(at 153.67 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VIN"
-			(at 152.146 74.168 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d9b7c6e-584b-4977-9946-25f5653d960c")
-		)
-		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
-				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LDO_LD1117S50CTR_STMicroelectronics:LD1117S50CTR")
-		(at 86.36 40.64 180)
+		(lib_id "PCM_Voltage_Regulator_AKL:LM7805MP")
+		(at 57.15 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "293583a4-b381-4b7a-83f1-b803a53756a6")
+		(uuid "30cfe4fe-8fd0-4a97-9fd9-ce04b03f1746")
 		(property "Reference" "UP1"
-			(at 63.5 27.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "LD1117S50CTR"
-			(at 63.5 30.48 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "LDO_LD1117S50CTR_STMicroelectronics:SOT-223_STM"
-			(at 72.39 29.464 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Value" "LM7805MP"
+			(at 57.15 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-223-3_TabPin2"
+			(at 57.15 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LD1117S50CTR"
-			(at 71.882 31.496 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm340.pdf"
+			(at 57.15 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 800mA SOT-223"
-			(at 86.36 40.64 0)
+		(property "Description" "SOT-223 5V 1.5A 3-terminal voltage regulator, Alternate KiCad Library"
+			(at 57.15 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,83 +4512,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "711e5bf7-fa12-47c3-b873-5adf17615882")
+			(uuid "17654561-220b-4a15-a27d-54ec6cf9d44b")
+		)
+		(pin "1"
+			(uuid "30c32169-90a7-4a01-8846-7b5705b08da3")
 		)
 		(pin "3"
-			(uuid "92cc3fc5-f812-45ea-86f4-53d1ec754810")
-		)
-		(pin "1"
-			(uuid "41a3aad3-0a8b-4d1e-aa08-45e4af169e94")
+			(uuid "16ab1525-3acc-43f0-b3d1-f21f80b36c39")
 		)
 		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
+			(project ""
 				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
 					(reference "UP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 209.55 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d98109b-116b-4b24-8f98-386833da2348")
-		(property "Reference" "#PWR011"
-			(at 209.55 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 209.55 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b4cf0d81-0a0c-4cf6-a574-81aa7849c5c8")
-		)
-		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
-				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5323,7 +4547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_3V3_1"
+		(property "Value" "GNDA"
 			(at 63.5 97.79 0)
 			(effects
 				(font
@@ -5370,34 +4594,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 228.6 128.27 0)
+		(lib_id "PCM_SL_Capacitors:10uF_25V")
+		(at 177.8 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4576699f-68aa-493b-a556-ecb24862cedb")
-		(property "Reference" "#PWR021"
-			(at 228.6 134.62 0)
+		(uuid "43fd587b-1eb7-4be7-9bae-8150cf06624e")
+		(property "Reference" "Cp3"
+			(at 181.61 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 228.6 133.35 0)
+		(property "Value" "10uF_25V"
+			(at 181.61 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 228.6 128.27 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 173.99 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5406,7 +4631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 128.27 0)
+			(at 177.8 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,21 +4639,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 228.6 128.27 0)
+		(property "Description" "10uF, 25V Electrolytic Capacitor"
+			(at 177.8 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
+		(pin "2"
+			(uuid "b9cb80a9-1ec4-4ca1-a71e-2330288de48f")
+		)
 		(pin "1"
-			(uuid "985a3732-4b79-49dc-bdaf-8786f5bd5367")
+			(uuid "9b47d4ed-fad0-476d-a949-5938688a2b0d")
 		)
 		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
+			(project "Arduino_Shield_PoE-Wifi"
 				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "#PWR021")
+					(reference "Cp3")
 					(unit 1)
 				)
 			)
@@ -5452,7 +4681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_3V3_2"
+		(property "Value" "GNDB"
 			(at 76.2 97.79 0)
 			(effects
 				(font
@@ -5699,12 +4928,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_2"
-			(at 101.6 134.62 0)
+		(property "Value" "+3V3C"
+			(at 104.14 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5746,44 +4976,33 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_0603")
-		(at 153.67 106.68 180)
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 165.1 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "64f6e8c0-df93-4bda-95cc-03d2af1002c2")
-		(property "Reference" "RN54"
-			(at 156.21 105.41 0)
+		(fields_autoplaced yes)
+		(uuid "6f67333a-c685-459a-8d0b-c807a1791b94")
+		(property "Reference" "UP2"
+			(at 165.1 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10K_0603"
-			(at 156.21 107.95 0)
+		(property "Value" "AMS1117-3.3"
+			(at 165.1 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 153.67 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 106.68 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 165.1 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5791,32 +5010,37 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 153.67 106.68 0)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 167.64 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Display" "10K"
-			(at 158.75 107.95 0)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 165.1 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "dff42d0a-a14f-40cf-9ec7-d5679d13e744")
 		)
 		(pin "2"
-			(uuid "d0c34e10-806f-4651-bb5b-67b730a500d4")
+			(uuid "11766823-dad7-4bcc-a7e2-0756be1e1e66")
+		)
+		(pin "3"
+			(uuid "6bb9158a-1159-41d2-8b7f-ae795582f712")
+		)
+		(pin "1"
+			(uuid "fd442040-9e55-45bb-bbd7-648574d21661")
 		)
 		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
+			(project ""
 				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "RN54")
+					(reference "UP2")
 					(unit 1)
 				)
 			)
@@ -5882,148 +5106,6 @@
 			(project "Arduino_Shield_PoE-Wifi"
 				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Capacitors:47uF_10V")
-		(at 38.1 57.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76865155-7e54-4c79-9c4a-2c7b4d5ac688")
-		(property "Reference" "Cp1"
-			(at 41.91 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF_10V"
-			(at 41.91 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
-			(at 34.29 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 57.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Display" "47uF 16V"
-			(at 44.45 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "581b399d-35cd-4e73-8d17-17a2a2fa5181")
-		)
-		(pin "2"
-			(uuid "c588e85f-bc02-4556-bbdc-d75cb0f2f25b")
-		)
-		(instances
-			(project "Arduino_Shield_PoE-Wifi"
-				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "Cp1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 171.45 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7eb84ff0-eefc-4c66-9c75-a1a8140563ba")
-		(property "Reference" "#PWR015"
-			(at 171.45 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3_1"
-			(at 171.45 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "92013347-a1df-4751-9765-e430ffdb0de9")
-		)
-		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
-				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6147,8 +5229,78 @@
 		)
 	)
 	(symbol
+		(lib_id "FerriteBead_MPZ1608S101ATAH0_TDK:MPZ1608S101ATAH0")
+		(at 229.87 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8940d27c-5a98-46ad-a898-8b755a49929e")
+		(property "Reference" "L1"
+			(at 222.25 30.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MPZ1608S101ATAH0"
+			(at 222.25 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "FerriteBead_MPZ1608S101ATAH0_TDK:IND_1608_TDK"
+			(at 222.758 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MPZ1608S101ATAH0"
+			(at 221.742 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71b0119d-e5b3-4f62-b704-f3163ee92ef1")
+		)
+		(pin "2"
+			(uuid "4fd6a82f-32e6-40e3-9c6c-c340c2901d28")
+		)
+		(instances
+			(project "Arduino_Shield_PoE-Wifi"
+				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
-		(at 95.25 33.02 0)
+		(at 76.2 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6157,7 +5309,7 @@
 		(fields_autoplaced yes)
 		(uuid "91d3c97f-15d6-4886-a140-585277641cc0")
 		(property "Reference" "#PWR04"
-			(at 95.25 36.83 0)
+			(at 76.2 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +5318,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 95.25 27.94 0)
+			(at 76.2 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +5326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 33.02 0)
+			(at 76.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +5335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 33.02 0)
+			(at 76.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,7 +5344,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 33.02 0)
+			(at 76.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6213,7 +5365,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 69.85 0)
+		(at 76.2 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6222,7 +5374,7 @@
 		(fields_autoplaced yes)
 		(uuid "93ec12f2-3f14-4308-892f-90faaa8b34a9")
 		(property "Reference" "#PWR03"
-			(at 95.25 76.2 0)
+			(at 76.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6231,7 +5383,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 74.93 0)
+			(at 76.2 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6239,7 +5391,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 69.85 0)
+			(at 76.2 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +5400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 69.85 0)
+			(at 76.2 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +5409,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 69.85 0)
+			(at 76.2 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,42 +5429,34 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Amplifier_Operational_AKL:LMV358IDGK")
-		(at 133.35 45.72 0)
+		(lib_id "PCM_LED_AKL:LED_0805_Green")
+		(at 187.96 82.55 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a04efc3a-d043-406b-8e17-d92d937ff443")
-		(property "Reference" "U3"
-			(at 147.32 39.2998 0)
+		(uuid "9bdddb73-e057-4e7b-8b2b-d6c3f44e0385")
+		(property "Reference" "ON2"
+			(at 187.96 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LMV358IDGK"
-			(at 147.32 41.8398 0)
+		(property "Value" "LED_0805_Green"
+			(at 187.96 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Package_SO_AKL:MSOP-8_3x3mm_P0.65mm"
-			(at 133.35 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmv321.pdf?ts=1636614252990&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMV321"
-			(at 133.35 45.72 0)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_0805_2012Metric"
+			(at 187.96 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6320,8 +5464,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SO-8 Quad CMOS Rail-to-Rail Operational Amplifier, 7mV Offset, 1MHz GBW, Alternate KiCAD Library"
-			(at 133.35 45.72 0)
+		(property "Datasheet" "~"
+			(at 187.96 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,34 +5473,95 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
-			(uuid "711e158b-139e-47c1-82bf-78636c3229bb")
-		)
-		(pin "4"
-			(uuid "3893caba-b5ff-4c27-b412-993feccb8c35")
-		)
-		(pin "5"
-			(uuid "6ab4d832-1761-4b81-bc79-134338954317")
-		)
-		(pin "2"
-			(uuid "19c4b82f-dd85-494c-bff5-1688bd4e9c25")
+		(property "Description" "Green SMD LED, 0805, Alternate KiCad Library"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "040a6f0c-e2ce-4653-9cfb-13dc44b4a60b")
+			(uuid "cca78ec6-0c03-4948-892a-f0d826d6f1ab")
 		)
-		(pin "7"
-			(uuid "976b8c7e-d926-4ade-b99b-ab410fe3f533")
-		)
-		(pin "8"
-			(uuid "d89614e6-ffd7-4fe3-85b2-28fe55507c56")
-		)
-		(pin "3"
-			(uuid "14fc175a-f13c-4a57-9205-cbb4616aa826")
+		(pin "2"
+			(uuid "42d97e0a-2d9d-41f7-9b7e-e2bd33dbcfa3")
 		)
 		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
+			(project "Arduino_Shield_PoE-Wifi"
 				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "U3")
+					(reference "ON2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FerriteBead_MPZ1608S101ATAH0_TDK:MPZ1608S101ATAH0")
+		(at 231.14 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f033b85-642d-4ceb-8a4d-93a6b047d1cf")
+		(property "Reference" "L2"
+			(at 223.52 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MPZ1608S101ATAH0"
+			(at 223.52 77.47 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "FerriteBead_MPZ1608S101ATAH0_TDK:IND_1608_TDK"
+			(at 224.028 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MPZ1608S101ATAH0"
+			(at 223.012 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2ad3cdc-47ae-466b-9e3a-5c4d718d16d3")
+		)
+		(pin "2"
+			(uuid "47e44d64-b3b6-4cad-9b68-5a397f4620e1")
+		)
+		(instances
+			(project "Arduino_Shield_PoE-Wifi"
+				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -6493,17 +5698,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 165.1 0)
-		(mirror y)
+		(lib_id "power:GND1")
+		(at 88.9 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a9b0f028-cc11-490a-8193-3baa047394a4")
+		(uuid "b5b9d15c-bafe-4e09-870a-b42263e391a0")
 		(property "Reference" "#PWR062"
-			(at 76.2 171.45 0)
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,8 +5715,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 76.2 170.18 0)
+		(property "Value" "GNDC"
+			(at 88.9 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +5724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 165.1 0)
+			(at 88.9 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6529,7 +5733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 165.1 0)
+			(at 88.9 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,7 +5742,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 165.1 0)
+			(at 88.9 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,7 +5750,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c456e988-05f7-4e2b-9108-0f0303fb3605")
+			(uuid "b7a49295-f0e6-4d54-8cc9-f5d07a2dc009")
 		)
 		(instances
 			(project "Arduino_Shield_PoE-Wifi"
@@ -6558,425 +5762,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 133.35 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad696a34-809c-4a62-8440-d74818bc174c")
-		(property "Reference" "#PWR057"
-			(at 133.35 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 133.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e5f4c7b-564b-4a59-9a02-9269dd33bb86")
-		)
-		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
-				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Amplifier_Operational_AKL:LMV358IDGK")
-		(at 184.15 87.63 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0fb8757-9616-4979-97ec-8220d3f329bd")
-		(property "Reference" "U3"
-			(at 185.42 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMV358IDGK"
-			(at 185.42 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Package_SO_AKL:MSOP-8_3x3mm_P0.65mm"
-			(at 184.15 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmv321.pdf?ts=1636614252990&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMV321"
-			(at 184.15 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SO-8 Quad CMOS Rail-to-Rail Operational Amplifier, 7mV Offset, 1MHz GBW, Alternate KiCAD Library"
-			(at 184.15 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "711e158b-139e-47c1-82bf-78636c3229bc")
-		)
-		(pin "4"
-			(uuid "95654079-4c09-4ce5-917f-41d5899f74b2")
-		)
-		(pin "5"
-			(uuid "6ab4d832-1761-4b81-bc79-134338954318")
-		)
-		(pin "2"
-			(uuid "b3491e9a-cea5-4196-b69f-410eabb6c2a1")
-		)
-		(pin "1"
-			(uuid "99411d60-326f-4db8-a306-af4aceb6da43")
-		)
-		(pin "7"
-			(uuid "976b8c7e-d926-4ade-b99b-ab410fe3f534")
-		)
-		(pin "8"
-			(uuid "88ff5095-385e-46e4-9b95-789a54001dcc")
-		)
-		(pin "3"
-			(uuid "62b0c298-834b-4dc6-bc78-5091ee20d796")
-		)
-		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
-				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 76.2 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0fc2481-ba4b-4657-ad21-9ee82ee63c0f")
-		(property "Reference" "#PWR06"
-			(at 76.2 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 76.2 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "870ba492-bc93-4625-8f66-4ef70076680c")
-		)
-		(instances
-			(project "Arduino_Shield_PoE-Wifi"
-				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MOSFET_PMV48XP,215_Nexperia:PMV48XP_215")
-		(at 198.12 102.87 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1614133-04ca-4aaf-840a-059a2e81f0ab")
-		(property "Reference" "T1"
-			(at 198.12 115.57 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "PMV48XP_215"
-			(at 198.12 118.11 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "TO-236_SOT23_NEX"
-			(at 204.216 121.158 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "PMV48XP_215"
-			(at 206.248 118.364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e7f7725e-258c-47ae-9a92-22c269870832")
-		)
-		(pin "2"
-			(uuid "940487ed-41a4-41d1-b2fd-f6df5e5654c4")
-		)
-		(pin "1"
-			(uuid "ece1bd51-901e-481d-aaf9-e52e8219d28a")
-		)
-		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
-				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "T1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Capacitor:100nF_0603_16V")
-		(at 54.61 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b668212c-db89-4924-8e78-7c3ec083bf81")
-		(property "Reference" "C2"
-			(at 57.15 55.8863 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF_0603_16V"
-			(at 54.61 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0603"
-			(at 52.07 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
-			(at 52.07 65.024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AVX Corporation"
-			(at 52.07 66.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "0603YC104KAT2A"
-			(at 52.07 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "0.1uF"
-			(at 57.15 58.4263 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C14663"
-			(at 55.88 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e6616a68-3838-4c57-a712-cd3a0d14b8ef")
-		)
-		(pin "1"
-			(uuid "b03bfd2e-6dda-4a60-bd11-d26de4cbb9f9")
-		)
-		(instances
-			(project "Arduino_Shield_PoE-Wifi"
-				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0603")
-		(at 162.56 55.88 270)
-		(mirror x)
+		(at 200.66 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b87c2e46-a6ea-4919-90e0-11afe71abd60")
-		(property "Reference" "RN36"
-			(at 162.56 50.8 90)
+		(uuid "b65b1b81-e1e0-43b1-be8a-bdde3c6d5bc5")
+		(property "Reference" "RON2"
+			(at 200.66 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6984,7 +5779,7 @@
 			)
 		)
 		(property "Value" "1K_0603"
-			(at 162.56 52.07 90)
+			(at 200.66 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6993,7 +5788,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 151.13 55.88 0)
+			(at 212.09 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7002,7 +5797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 55.88 0)
+			(at 200.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7011,7 +5806,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 55.88 0)
+			(at 200.66 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7019,7 +5814,7 @@
 			)
 		)
 		(property "Display" "1K"
-			(at 162.56 53.34 90)
+			(at 200.66 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7027,15 +5822,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "a40d1ddc-947d-49f8-8b87-d795b7359ec3")
+			(uuid "e467a114-dc19-4c48-8ab8-d4baf96b3215")
 		)
 		(pin "2"
-			(uuid "6bad81a6-9f90-45ab-ab02-e705e4d4de00")
+			(uuid "85e1015b-0ad2-4c4b-8768-635ca5f10a9d")
 		)
 		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
+			(project "Arduino_Shield_PoE-Wifi"
 				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "RN36")
+					(reference "RON2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Capacitors:10uF_25V")
+		(at 38.1 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb2ca9ce-d07c-47b4-bb6a-1fac83995a4d")
+		(property "Reference" "Cp1"
+			(at 41.91 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF_25V"
+			(at 41.91 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 34.29 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF, 25V Electrolytic Capacitor"
+			(at 38.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8edc901-b913-4552-ae0b-89449254ba3e")
+		)
+		(pin "1"
+			(uuid "3e5b08e0-f995-48ff-ad51-40c3fe7be007")
+		)
+		(instances
+			(project "Arduino_Shield_PoE-Wifi"
+				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
+					(reference "Cp1")
 					(unit 1)
 				)
 			)
@@ -7043,7 +5908,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 62.23 0)
+		(at 133.35 50.8 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7053,7 +5918,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbf8a8be-e3fb-4ebf-b1da-b00209a7749a")
 		(property "Reference" "#PWR059"
-			(at 182.88 68.58 0)
+			(at 133.35 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,7 +5927,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 67.31 0)
+			(at 133.35 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +5935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 62.23 0)
+			(at 133.35 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,7 +5944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 62.23 0)
+			(at 133.35 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7088,7 +5953,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 62.23 0)
+			(at 133.35 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7226,7 +6091,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 247.65 107.95 0)
+		(at 237.49 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7235,7 +6100,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdf006ab-c099-4c36-9b63-c9a7ce759681")
 		(property "Reference" "#PWR08"
-			(at 247.65 111.76 0)
+			(at 237.49 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,16 +6108,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3_1"
-			(at 247.65 102.87 0)
+		(property "Value" "+3V3A"
+			(at 240.03 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 107.95 0)
+			(at 237.49 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7261,7 +6127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 107.95 0)
+			(at 237.49 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7270,7 +6136,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 107.95 0)
+			(at 237.49 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,153 +6156,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_LED_AKL:LED_0805_Yellow")
-		(at 172.72 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfe260c3-a1e4-4a08-8197-b298b35476ac")
-		(property "Reference" "LED_PB7"
-			(at 172.72 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_0805_Yellow"
-			(at 172.72 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_0805_2012Metric"
-			(at 172.72 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Yellow SMD LED, 0805, Alternate KiCad Library"
-			(at 172.72 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82ec70ff-a487-4d06-8c14-c5db578be165")
-		)
-		(pin "2"
-			(uuid "0b0e808c-6b1a-4354-b77f-2db83d3894f6")
-		)
-		(instances
-			(project "Arduino_Shield_PoE-Wifi"
-				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "LED_PB7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0603")
-		(at 153.67 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0cbd974-84e0-4272-9d24-5f72168cbe2f")
-		(property "Reference" "RN53"
-			(at 156.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K_0603"
-			(at 156.21 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 153.67 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Display" "10K"
-			(at 158.75 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51eab5da-dcb5-4abd-92f7-0889fc4631cc")
-		)
-		(pin "2"
-			(uuid "d048f63b-83a8-46a3-8a27-23f95f344920")
-		)
-		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
-				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "RN53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_AKL:R_0603")
-		(at 162.56 43.18 270)
+		(at 110.49 44.45 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7444,8 +6165,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3bb9c75-ad43-46e4-a4d3-7ff54d68296a")
-		(property "Reference" "RN35"
-			(at 162.56 38.1 90)
+		(property "Reference" "RON1"
+			(at 110.49 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7453,7 +6174,7 @@
 			)
 		)
 		(property "Value" "1K_0603"
-			(at 162.56 39.37 90)
+			(at 110.49 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7462,7 +6183,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 151.13 43.18 0)
+			(at 99.06 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,7 +6192,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 43.18 0)
+			(at 110.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,7 +6201,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 43.18 0)
+			(at 110.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,7 +6209,7 @@
 			)
 		)
 		(property "Display" "1K"
-			(at 162.56 40.64 90)
+			(at 110.49 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,110 +6225,25 @@
 		(instances
 			(project "Arduino_Shield_PoEth-Wifi-GSM"
 				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "RN35")
+					(reference "RON1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Capacitors:47uF_10V")
-		(at 95.25 57.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6cc5620-6d5b-4ce6-bd98-aea4a83ca5c0")
-		(property "Reference" "Cp2"
-			(at 99.06 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF_10V"
-			(at 99.06 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
-			(at 91.44 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 57.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Display" "47uF 16V"
-			(at 101.6 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a64c54f3-a359-4883-bc95-d7dc6f2b2ec1")
-		)
-		(pin "2"
-			(uuid "d419530f-ad95-4d07-9334-71eb8efc5eb4")
-		)
-		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
-				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "Cp2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Capacitor:100nF_0603_16V")
-		(at 247.65 118.11 0)
+		(lib_id "power:GND")
+		(at 237.49 55.88 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd044494-6826-453f-8682-4741fdd95672")
-		(property "Reference" "C13"
-			(at 250.19 116.8462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF_0603_16V"
-			(at 247.65 114.3 0)
+		(uuid "d995b167-128b-4a30-be3b-4278727d20ab")
+		(property "Reference" "#PWR077"
+			(at 237.49 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7615,18 +6251,25 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PCM_4ms_Capacitor:C_0603"
-			(at 245.11 123.19 0)
+		(property "Value" "GNDA"
+			(at 237.49 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 118.11 0)
+			(at 237.49 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,71 +6278,20 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 118.11 0)
+			(at 237.49 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
-			(at 245.11 125.984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "AVX Corporation"
-			(at 245.11 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "0603YC104KAT2A"
-			(at 245.11 129.032 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Display" "1uF"
-			(at 250.19 119.3862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "JLCPCB ID" "C14663"
-			(at 248.92 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a71b2360-506b-486f-912b-3b79e9d94142")
 		)
 		(pin "1"
-			(uuid "d36e7469-5307-4d28-b2a5-a40d7098d7d0")
+			(uuid "f2ed9398-a8c7-485f-be2f-b439b6216128")
 		)
 		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
+			(project "Arduino_Shield_PoE-Wifi"
 				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "C13")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -7723,7 +6315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_3V3_2"
+		(property "Value" "GNDC"
 			(at 101.6 170.18 0)
 			(effects
 				(font
@@ -7770,103 +6362,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LP2985-3.3")
-		(at 228.6 113.03 0)
+		(lib_id "PCM_4ms_Capacitor:100nF_0603_16V")
+		(at 237.49 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9aeedbb-d34c-4804-8b91-b9ae66b29f4b")
-		(property "Reference" "UP2"
-			(at 228.6 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LP2985-3.3"
-			(at 228.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 228.6 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp2985.pdf"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "150mA 16V Low-noise Low-dropout Regulator With Shutdown, 3.3V output voltage, SOT-23-5"
-			(at 228.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "e28537ef-6c96-40fa-accf-c3e1464aff6a")
-		)
-		(pin "2"
-			(uuid "f6b8886d-4aaa-4f86-8bae-e5d93eb7c291")
-		)
-		(pin "5"
-			(uuid "f69041ec-eb58-48b8-a686-f33e42630f06")
-		)
-		(pin "1"
-			(uuid "49392858-27e8-4215-94cc-f6ef1ed5050a")
-		)
-		(pin "3"
-			(uuid "732cfff9-a23c-4868-adda-f40b41f75981")
-		)
-		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
-				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "UP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 247.65 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eddfd150-f8f8-494c-87df-cade2ca00322")
-		(property "Reference" "#PWR023"
-			(at 247.65 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_3V3_1"
-			(at 250.19 129.5399 0)
+		(uuid "e661e7fa-a7a2-435a-b733-a0130665fb63")
+		(property "Reference" "C2"
+			(at 240.03 88.9063 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7874,8 +6379,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 247.65 128.27 0)
+		(property "Value" "100nF_0603_16V"
+			(at 237.49 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7883,8 +6388,18 @@
 				(hide yes)
 			)
 		)
+		(property "Footprint" "PCM_4ms_Capacitor:C_0603"
+			(at 234.95 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" ""
-			(at 247.65 128.27 0)
+			(at 237.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,7 +6408,124 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 128.27 0)
+			(at 237.49 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 234.95 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX Corporation"
+			(at 234.95 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603YC104KAT2A"
+			(at 234.95 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 240.03 91.4463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C14663"
+			(at 238.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a726877d-8fc5-493a-9dcc-bcfea3482e91")
+		)
+		(pin "1"
+			(uuid "c396a929-3155-411c-b0b4-0e33872b665d")
+		)
+		(instances
+			(project "Arduino_Shield_PoE-Wifi"
+				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2a73a35-430e-4cd8-b885-d8215a5e0645")
+		(property "Reference" "#PWR078"
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 237.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7901,12 +6533,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c9267c0-ad0b-47c9-bdb5-a6fe831480b3")
+			(uuid "1cea9b83-6c4c-4fbd-b767-8bd1a893534d")
 		)
 		(instances
-			(project "Arduino_Shield_PoEth-Wifi-GSM"
+			(project "Arduino_Shield_PoE-Wifi"
 				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/c8afc062-d18d-40ae-ae3f-fbf624abc5f8"
-					(reference "#PWR023")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
