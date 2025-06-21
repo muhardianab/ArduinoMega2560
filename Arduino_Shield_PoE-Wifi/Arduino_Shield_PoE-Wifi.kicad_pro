@@ -625,8 +625,12 @@
       "PowerOverEthernet"
     ],
     [
+      "53447c80-78f5-44f4-90e5-f91d3c6655dc",
+      "Wifi ESP8266"
+    ],
+    [
       "5238eee7-729f-4732-95e2-6eb150e234ab",
-      "Wifi"
+      "Wifi ATWINC1500"
     ]
   ],
   "text_variables": {}
