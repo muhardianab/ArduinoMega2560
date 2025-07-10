@@ -1449,7 +1449,7 @@
 			(uuid "357d55cd-de1f-43d9-880e-f90f9e99d572")
 		)
 		(instances
-			(project ""
+			(project "Arduino_Shield_PoE-Wifi"
 				(path "/00744368-faf2-4f6e-8fde-6584e08422b6/53447c80-78f5-44f4-90e5-f91d3c6655dc"
 					(reference "U2")
 					(unit 1)
