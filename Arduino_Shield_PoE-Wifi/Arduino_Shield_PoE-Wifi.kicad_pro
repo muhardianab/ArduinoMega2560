@@ -52,7 +52,40 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|140163205|147155000|0f3cb03f-f941-48f7-9b80-a41446b7d86c|3c10f255-0994-4e71-b5df-85c093d32afd",
+          ""
+        ],
+        [
+          "courtyards_overlap|140420000|106555000|06e82060-a09e-440e-8ca9-e5bcd30515e0|cccbbaeb-e6b8-4d67-939b-49e07cfd332a",
+          ""
+        ],
+        [
+          "courtyards_overlap|140460000|126855000|3c10f255-0994-4e71-b5df-85c093d32afd|cccbbaeb-e6b8-4d67-939b-49e07cfd332a",
+          ""
+        ],
+        [
+          "courtyards_overlap|90365000|152415000|67930165-aa8c-49c0-a6e4-ff32a30e9d36|82c545ec-6577-4eaf-b683-392b88f7d511",
+          ""
+        ],
+        [
+          "unconnected_items|120860000|114100000|2352c611-0ef0-4713-805b-2a5f3f7b6882|589a6e1d-bf3e-4b3d-885d-d8a2d12e4114",
+          ""
+        ],
+        [
+          "unconnected_items|138665000|105800000|f7de25cf-01c2-49ac-978f-ee6ee9a25b02|589a6e1d-bf3e-4b3d-885d-d8a2d12e4114",
+          ""
+        ],
+        [
+          "unconnected_items|82005000|154160000|035af315-f2d7-4365-8027-e494a2880601|2352c611-0ef0-4713-805b-2a5f3f7b6882",
+          ""
+        ],
+        [
+          "unconnected_items|82005000|154160000|035af315-f2d7-4365-8027-e494a2880601|945e5cdc-7b71-4ab8-ac33-b494379aa761",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
