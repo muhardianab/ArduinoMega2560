@@ -246,7 +246,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.399 9.652) (xy 17.399 10.16) (xy 20.32 10.16)
+						(xy 17.399 9.525) (xy 17.399 10.16) (xy 20.32 10.16)
 					)
 					(stroke
 						(width 0)
@@ -258,7 +258,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.399 -0.508) (xy 17.399 0) (xy 20.32 0)
+						(xy 17.399 -0.635) (xy 17.399 0) (xy 20.32 0)
 					)
 					(stroke
 						(width 0)
@@ -613,7 +613,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.366 5.715) (xy 8.636 5.715)
+						(xy 7.4295 5.6515) (xy 8.6995 5.6515)
 					)
 					(stroke
 						(width 0)
@@ -625,7 +625,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.366 4.445) (xy 8.636 4.445)
+						(xy 7.4295 4.3815) (xy 8.6995 4.3815)
 					)
 					(stroke
 						(width 0)
@@ -637,7 +637,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.366 3.175) (xy 8.636 3.175)
+						(xy 7.4295 3.1115) (xy 8.6995 3.1115)
 					)
 					(stroke
 						(width 0)
@@ -649,7 +649,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.366 1.778) (xy 8.636 1.778)
+						(xy 7.4295 1.8415) (xy 8.6995 1.8415)
 					)
 					(stroke
 						(width 0)
@@ -661,7 +661,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.366 0.508) (xy 8.636 0.508)
+						(xy 7.4295 0.5715) (xy 8.6995 0.5715)
 					)
 					(stroke
 						(width 0)
@@ -673,7 +673,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.636 8.255) (xy 7.366 8.255)
+						(xy 8.6995 8.1915) (xy 7.4295 8.1915)
 					)
 					(stroke
 						(width 0)
@@ -685,7 +685,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.636 6.985) (xy 7.366 6.985)
+						(xy 8.6995 6.9215) (xy 7.4295 6.9215)
 					)
 					(stroke
 						(width 0)
@@ -697,7 +697,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.636 -0.762) (xy 7.366 -0.762)
+						(xy 8.6995 -0.6985) (xy 7.4295 -0.6985)
 					)
 					(stroke
 						(width 0)
@@ -1221,9 +1221,9 @@
 				)
 				(polyline
 					(pts
-						(xy 7.366 -2.032) (xy 7.366 9.525) (xy 15.24 9.525) (xy 15.24 6.985) (xy 16.256 6.985) (xy 16.256 5.588)
-						(xy 17.526 5.588) (xy 17.526 1.905) (xy 16.256 1.905) (xy 16.256 0.508) (xy 15.24 0.508) (xy 15.24 -2.032)
-						(xy 7.366 -2.032)
+						(xy 7.3025 -1.9685) (xy 7.3025 9.4615) (xy 15.0495 9.4615) (xy 15.0495 6.9215) (xy 16.3195 6.9215)
+						(xy 16.3195 5.6515) (xy 17.5895 5.6515) (xy 17.5895 1.8415) (xy 16.3195 1.8415) (xy 16.3195 0.5715)
+						(xy 15.0495 0.5715) (xy 15.0495 -1.9685) (xy 7.3025 -1.9685)
 					)
 					(stroke
 						(width 0.254)
@@ -1281,7 +1281,103 @@
 				)
 				(polyline
 					(pts
-						(xy 18.161 8.128) (xy 16.637 8.128)
+						(xy 15.494 8.89) (xy 15.494 8.636)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.494 -1.27) (xy 15.494 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.748 9.525) (xy 15.748 9.271)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.748 -0.635) (xy 15.748 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.002 8.382) (xy 15.494 8.89) (xy 15.748 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.002 -1.778) (xy 15.494 -1.27) (xy 15.748 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.256 9.017) (xy 15.748 9.525) (xy 16.002 9.525)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.256 -1.143) (xy 15.748 -0.635) (xy 16.002 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 8.128) (xy 18.415 8.128) (xy 17.399 9.652) (xy 16.51 8.128)
 					)
 					(stroke
 						(width 0.254)
@@ -1293,7 +1389,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.161 -2.032) (xy 16.637 -2.032)
+						(xy 16.51 -2.032) (xy 18.415 -2.032) (xy 17.399 -0.508) (xy 16.51 -2.032)
 					)
 					(stroke
 						(width 0.254)
@@ -1305,7 +1401,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.288 9.652) (xy 16.383 9.652) (xy 17.399 8.128) (xy 18.288 9.652)
+						(xy 16.637 9.652) (xy 18.161 9.652)
 					)
 					(stroke
 						(width 0.254)
@@ -1317,106 +1413,10 @@
 				)
 				(polyline
 					(pts
-						(xy 18.288 8.509) (xy 18.796 8.001) (xy 18.542 8.001)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 18.288 -0.508) (xy 16.383 -0.508) (xy 17.399 -2.032) (xy 18.288 -0.508)
+						(xy 16.637 -0.508) (xy 18.161 -0.508)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 18.288 -1.651) (xy 18.796 -2.159) (xy 18.542 -2.159)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 18.542 9.144) (xy 19.05 8.636) (xy 18.796 8.636)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 18.542 -1.016) (xy 19.05 -1.524) (xy 18.796 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 18.796 8.001) (xy 18.796 8.255)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 18.796 -2.159) (xy 18.796 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 8.636) (xy 19.05 8.89)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 -1.524) (xy 19.05 -1.27)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -1433,22 +1433,6 @@
 				)
 				(text "75"
 					(at 7.112 -4.953 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "Y"
-					(at 19.558 -1.27 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "G"
-					(at 19.685 8.89 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1636,7 +1620,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 20.32 5.08 0)
+					(at 20.32 2.54 0)
 					(length 0)
 					(hide yes)
 					(name "NC"
@@ -1664,7 +1648,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1682,7 +1666,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1700,7 +1684,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1718,7 +1702,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7396,13 +7380,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RJ45 PoE 10/100 Base-TX Jack with Magnetic Module"
+		(property "Description" ""
 			(at 322.58 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "7"
